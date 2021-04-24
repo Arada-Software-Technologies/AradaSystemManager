@@ -1,0 +1,25 @@
+﻿       -- Please Delete This File!
+       
+       
+       public void SaveData()
+        {
+            using (var db = new Model.AradashiManagerContext())
+            {
+                Title title = new Title()
+                {
+                    Title1 = "Admin"
+                };
+                db.Titles.Add(title);
+                db.SaveChanges();
+            }
+        }
+
+        public void UpdateData()
+        {
+            using (var db = new Model.AradashiManagerContext())
+            {
+                var titleDb = db.Titles.FirstOrDefault(x => x.Title1 == "Admin");
+                titleDb.Title1 = "System Admin";
+                db.SaveChanges();
+            }
+        }
