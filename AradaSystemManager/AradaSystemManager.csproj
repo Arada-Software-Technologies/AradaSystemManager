@@ -22,9 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Overview\BackEnd\Database\Context\AradaShiContext\Model\" />
-    <Folder Include="Overview\BackEnd\Database\Context\AradaShiManagerContext\Model\" />
-    <Folder Include="Overview\FrontEnd\" />
+ EF_integration
+    <Folder Include="System_Overview\BackEnd\Database\Context\AradaShiContext\Model\" />
+    <Folder Include="System_Overview\BackEnd\Database\Context\AradaShiManagerContext\Model\" />
+    <Folder Include="System_Overview\Frontend\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +35,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <Folder Include="System_Overview\Frontend\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+ master
   </ItemGroup>
 
 </Project>
