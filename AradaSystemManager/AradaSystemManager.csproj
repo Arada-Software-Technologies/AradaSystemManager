@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="1 System Overview\Frontend\" />
+    <Folder Include="System_Overview\Frontend\" />
   </ItemGroup>
 
   <ItemGroup>
