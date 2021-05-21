@@ -41,5 +41,20 @@ namespace AradaSystemManager.Prime_UCs
         {
 
         }
+
+        private void Login_UC_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -29,25 +29,25 @@ namespace AradaSystemManager
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.login_uc1 = new AradaSystemManager.Prime_UCs.Login_UC();
             this.SuspendLayout();
             // 
-            // button1
+            // login_uc1
             // 
-            this.button1.Location = new System.Drawing.Point(299, 127);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 48);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Temp";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.login_uc1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.login_uc1.Location = new System.Drawing.Point(0, 0);
+            this.login_uc1.Margin = new System.Windows.Forms.Padding(0);
+            this.login_uc1.Name = "login_uc1";
+            this.login_uc1.Size = new System.Drawing.Size(1365, 769);
+            this.login_uc1.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1365, 769);
+            this.Controls.Add(this.login_uc1);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -56,7 +56,7 @@ namespace AradaSystemManager
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private Prime_UCs.Login_UC login_uc1;
     }
 }
 

@@ -22,5 +22,10 @@ namespace AradaSystemManager
             Form2 f2 = new Form2();
             f2.Show();
         }
+
+        private void login_uc1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
