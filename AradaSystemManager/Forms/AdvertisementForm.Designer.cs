@@ -46,9 +46,9 @@ namespace AradaSystemManager.Forms
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.panel15 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -261,6 +261,16 @@ namespace AradaSystemManager.Forms
             this.panel2.Size = new System.Drawing.Size(800, 104);
             this.panel2.TabIndex = 1;
             // 
+            // panel15
+            // 
+            this.panel15.BackgroundImage = global::AradaSystemManager.Properties.Resources.photo_2021_04_18_16_50_37;
+            this.panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel15.Location = new System.Drawing.Point(13, 12);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(70, 81);
+            this.panel15.TabIndex = 6;
+            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
@@ -278,16 +288,6 @@ namespace AradaSystemManager.Forms
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(251, 135);
             this.panel9.TabIndex = 3;
-            // 
-            // panel15
-            // 
-            this.panel15.BackgroundImage = global::AradaSystemManager.Properties.Resources.photo_2021_04_18_16_50_37;
-            this.panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel15.Location = new System.Drawing.Point(13, 12);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(70, 81);
-            this.panel15.TabIndex = 6;
             // 
             // AdvertisementForm
             // 

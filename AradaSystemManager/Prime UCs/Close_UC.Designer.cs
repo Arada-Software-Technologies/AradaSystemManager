@@ -35,6 +35,7 @@ namespace AradaSystemManager.Prime_UCs
             // 
             // CloseBtn
             // 
+            this.CloseBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CloseBtn.Image = global::AradaSystemManager.Properties.Resources.multiply_50px;
             this.CloseBtn.Location = new System.Drawing.Point(0, 0);
             this.CloseBtn.Margin = new System.Windows.Forms.Padding(5);
