@@ -67,10 +67,10 @@ namespace AradaSystemManager.Prime_UCs
             this.TitleLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.TitleLbl.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.TitleLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.TitleLbl.Location = new System.Drawing.Point(90, 12);
             this.TitleLbl.Name = "TitleLbl";
-            this.TitleLbl.Size = new System.Drawing.Size(617, 70);
+            this.TitleLbl.Size = new System.Drawing.Size(617, 56);
             this.TitleLbl.TabIndex = 8;
             this.TitleLbl.Text = "Form Title";
             this.TitleLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -84,7 +84,7 @@ namespace AradaSystemManager.Prime_UCs
             this.Logo.Location = new System.Drawing.Point(13, 12);
             this.Logo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(70, 63);
+            this.Logo.Size = new System.Drawing.Size(70, 69);
             this.Logo.TabIndex = 6;
             // 
             // CenterPanel

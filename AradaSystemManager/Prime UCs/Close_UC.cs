@@ -26,5 +26,10 @@ namespace AradaSystemManager.Prime_UCs
         {
             CloseBtn.Image = Properties.Resources.multiply_50px;
         }
+
+        private void CloseBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

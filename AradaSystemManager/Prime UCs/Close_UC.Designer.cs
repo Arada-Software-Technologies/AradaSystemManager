@@ -44,6 +44,7 @@ namespace AradaSystemManager.Prime_UCs
             this.CloseBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CloseBtn.TabIndex = 0;
             this.CloseBtn.TabStop = false;
+            this.CloseBtn.Click += new System.EventHandler(this.CloseBtn_Click);
             this.CloseBtn.MouseEnter += new System.EventHandler(this.CloseBtn_MouseEnter);
             this.CloseBtn.MouseLeave += new System.EventHandler(this.CloseBtn_MouseLeave);
             // 
@@ -51,7 +52,7 @@ namespace AradaSystemManager.Prime_UCs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Transparent;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.CloseBtn);
             this.Name = "Close_UC";
             this.Size = new System.Drawing.Size(100, 100);
@@ -62,6 +63,6 @@ namespace AradaSystemManager.Prime_UCs
 
         #endregion
 
-        private System.Windows.Forms.PictureBox CloseBtn;
+        public System.Windows.Forms.PictureBox CloseBtn;
     }
 }

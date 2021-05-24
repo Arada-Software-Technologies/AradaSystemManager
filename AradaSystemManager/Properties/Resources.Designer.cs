@@ -63,6 +63,16 @@ namespace AradaSystemManager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_50px {
+            get {
+                object obj = ResourceManager.GetObject("add_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aradashi_Transparent {
             get {
                 object obj = ResourceManager.GetObject("aradashi_Transparent", resourceCulture);
