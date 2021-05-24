@@ -16,5 +16,15 @@ namespace AradaSystemManager.Prime_UCs
         {
             InitializeComponent();
         }
+
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
