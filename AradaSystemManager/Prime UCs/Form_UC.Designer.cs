@@ -1,14 +1,14 @@
 ﻿
-namespace AradaSystemManager.Forms
+namespace AradaSystemManager.Prime_UCs
 {
-    partial class AdvertisementForm
+    partial class Form_UC
     {
-        /// <summary>
+        /// <summary> 
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// <summary> 
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -21,48 +21,23 @@ namespace AradaSystemManager.Forms
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Component Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.MainPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.CenterPanel = new System.Windows.Forms.Panel();
             this.TopPanel = new System.Windows.Forms.Panel();
             this.CloseBtn = new AradaSystemManager.Prime_UCs.Close_UC();
             this.TitleLbl = new System.Windows.Forms.Label();
             this.Logo = new System.Windows.Forms.Panel();
-            this.MainPanel.SuspendLayout();
+            this.CenterPanel = new System.Windows.Forms.Panel();
+            this.MainPanel = new System.Windows.Forms.TableLayoutPanel();
             this.TopPanel.SuspendLayout();
+            this.MainPanel.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // MainPanel
-            // 
-            this.MainPanel.ColumnCount = 1;
-            this.MainPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.MainPanel.Controls.Add(this.CenterPanel, 0, 1);
-            this.MainPanel.Controls.Add(this.TopPanel, 0, 0);
-            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainPanel.Location = new System.Drawing.Point(0, 0);
-            this.MainPanel.Name = "MainPanel";
-            this.MainPanel.RowCount = 2;
-            this.MainPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.02196F));
-            this.MainPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.97803F));
-            this.MainPanel.Size = new System.Drawing.Size(800, 664);
-            this.MainPanel.TabIndex = 2;
-            // 
-            // CenterPanel
-            // 
-            this.CenterPanel.BackColor = System.Drawing.Color.White;
-            this.CenterPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CenterPanel.Location = new System.Drawing.Point(10, 96);
-            this.CenterPanel.Margin = new System.Windows.Forms.Padding(10, 3, 10, 15);
-            this.CenterPanel.Name = "CenterPanel";
-            this.CenterPanel.Size = new System.Drawing.Size(780, 553);
-            this.CenterPanel.TabIndex = 0;
             // 
             // TopPanel
             // 
@@ -92,12 +67,12 @@ namespace AradaSystemManager.Forms
             this.TitleLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.TitleLbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.TitleLbl.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.TitleLbl.Location = new System.Drawing.Point(90, 12);
             this.TitleLbl.Name = "TitleLbl";
-            this.TitleLbl.Size = new System.Drawing.Size(617, 56);
+            this.TitleLbl.Size = new System.Drawing.Size(617, 70);
             this.TitleLbl.TabIndex = 8;
-            this.TitleLbl.Text = "Advertisement Creation Form";
+            this.TitleLbl.Text = "Form Title";
             this.TitleLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Logo
@@ -109,33 +84,56 @@ namespace AradaSystemManager.Forms
             this.Logo.Location = new System.Drawing.Point(13, 12);
             this.Logo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(70, 56);
+            this.Logo.Size = new System.Drawing.Size(70, 63);
             this.Logo.TabIndex = 6;
             // 
-            // AdvertisementForm
+            // CenterPanel
+            // 
+            this.CenterPanel.BackColor = System.Drawing.Color.White;
+            this.CenterPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CenterPanel.Location = new System.Drawing.Point(10, 96);
+            this.CenterPanel.Margin = new System.Windows.Forms.Padding(10, 3, 10, 15);
+            this.CenterPanel.Name = "CenterPanel";
+            this.CenterPanel.Size = new System.Drawing.Size(780, 553);
+            this.CenterPanel.TabIndex = 0;
+            // 
+            // MainPanel
+            // 
+            this.MainPanel.ColumnCount = 1;
+            this.MainPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.MainPanel.Controls.Add(this.CenterPanel, 0, 1);
+            this.MainPanel.Controls.Add(this.TopPanel, 0, 0);
+            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainPanel.Location = new System.Drawing.Point(0, 0);
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.RowCount = 2;
+            this.MainPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.02196F));
+            this.MainPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.97803F));
+            this.MainPanel.Size = new System.Drawing.Size(800, 664);
+            this.MainPanel.TabIndex = 1;
+            // 
+            // Form_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(800, 664);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.MainPanel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AdvertisementForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "AdvertisementForm";
-            this.MainPanel.ResumeLayout(false);
+            this.Name = "Form_UC";
+            this.Size = new System.Drawing.Size(800, 664);
             this.TopPanel.ResumeLayout(false);
+            this.MainPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel MainPanel;
-        private System.Windows.Forms.Panel CenterPanel;
         private System.Windows.Forms.Panel TopPanel;
-        private Prime_UCs.Close_UC CloseBtn;
+        private Close_UC CloseBtn;
         private System.Windows.Forms.Label TitleLbl;
         private System.Windows.Forms.Panel Logo;
+        private System.Windows.Forms.Panel CenterPanel;
+        private System.Windows.Forms.TableLayoutPanel MainPanel;
     }
 }
