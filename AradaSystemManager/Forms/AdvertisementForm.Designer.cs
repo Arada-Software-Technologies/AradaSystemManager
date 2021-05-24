@@ -1,7 +1,7 @@
 ﻿
 namespace AradaSystemManager.Forms
 {
-    partial class AdvertisementForm
+    partial class Advertisement
     {
         /// <summary>
         /// Required designer variable.
@@ -826,7 +826,7 @@ namespace AradaSystemManager.Forms
             this.Logo.Size = new System.Drawing.Size(70, 69);
             this.Logo.TabIndex = 6;
             // 
-            // AdvertisementForm
+            // Advertisement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -834,7 +834,7 @@ namespace AradaSystemManager.Forms
             this.ClientSize = new System.Drawing.Size(800, 664);
             this.Controls.Add(this.MainPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AdvertisementForm";
+            this.Name = "Advertisement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdvertisementForm";
             this.TopMost = true;
