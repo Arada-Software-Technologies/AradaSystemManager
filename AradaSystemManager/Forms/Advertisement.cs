@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AradaSystemManager.Forms
 {
-    public partial class AdvertisementForm : Form
+    public partial class Advertisement : Form
     {
-        public AdvertisementForm()
+        public Advertisement()
         {
             InitializeComponent();
         }
