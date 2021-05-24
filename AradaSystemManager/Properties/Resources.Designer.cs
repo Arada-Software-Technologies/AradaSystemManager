@@ -113,6 +113,26 @@ namespace AradaSystemManager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap multiply_50px {
+            get {
+                object obj = ResourceManager.GetObject("multiply_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap multiply_50pxRed {
+            get {
+                object obj = ResourceManager.GetObject("multiply_50pxRed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap photo_2021_04_18_16_50_37 {
             get {
                 object obj = ResourceManager.GetObject("photo_2021_04_18_16_50_37", resourceCulture);
