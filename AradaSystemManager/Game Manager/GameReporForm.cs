@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AradaSystemManager.Game_Manager
 {
-    public partial class GameReportForm : Form
+    public partial class GameReporForm : Form
     {
-        public GameReportForm()
+        public GameReporForm()
         {
             InitializeComponent();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

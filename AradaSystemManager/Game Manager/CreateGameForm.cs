@@ -16,5 +16,10 @@ namespace AradaSystemManager.Game_Manager
         {
             InitializeComponent();
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
