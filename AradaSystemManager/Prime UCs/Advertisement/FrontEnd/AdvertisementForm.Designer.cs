@@ -1,5 +1,5 @@
 ﻿
-namespace AradaSystemManager.Forms
+namespace AradaSystemManager.Prime_UCs.Advertisement.FrontEnd
 {
     partial class AdvertisementForm
     {

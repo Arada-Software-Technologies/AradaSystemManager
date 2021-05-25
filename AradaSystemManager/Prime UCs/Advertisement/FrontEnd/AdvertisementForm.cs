@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AradaSystemManager.Forms
+namespace AradaSystemManager.Prime_UCs.Advertisement.FrontEnd
 {
     public partial class AdvertisementForm : Form
     {
