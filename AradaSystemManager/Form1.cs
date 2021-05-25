@@ -27,5 +27,10 @@ namespace AradaSystemManager
         {
 
         }
+
+        private void login_uc1_Load_1(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
