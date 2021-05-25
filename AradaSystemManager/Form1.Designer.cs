@@ -29,24 +29,23 @@ namespace AradaSystemManager
         /// </summary>
         private void InitializeComponent()
         {
-            this.login_uc1 = new AradaSystemManager.Prime_UCs.Login_UC();
+            this.userControl11 = new AradaSystemManager.Prime_UCs.UserControl1();
             this.SuspendLayout();
             // 
-            // login_uc1
+            // userControl11
             // 
-            this.login_uc1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.login_uc1.Location = new System.Drawing.Point(0, 0);
-            this.login_uc1.Margin = new System.Windows.Forms.Padding(0);
-            this.login_uc1.Name = "login_uc1";
-            this.login_uc1.Size = new System.Drawing.Size(1365, 769);
-            this.login_uc1.TabIndex = 0;
+            this.userControl11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControl11.Location = new System.Drawing.Point(0, 0);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(1560, 769);
+            this.userControl11.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1365, 769);
-            this.Controls.Add(this.login_uc1);
+            this.ClientSize = new System.Drawing.Size(1560, 769);
+            this.Controls.Add(this.userControl11);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,7 +55,7 @@ namespace AradaSystemManager
 
         #endregion
 
-        private Prime_UCs.Login_UC login_uc1;
+        private Prime_UCs.UserControl1 userControl11;
     }
 }
 
