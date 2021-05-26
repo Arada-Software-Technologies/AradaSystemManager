@@ -63,6 +63,16 @@ namespace AradaSystemManager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_50px {
+            get {
+                object obj = ResourceManager.GetObject("add_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aradashi_Transparent {
             get {
                 object obj = ResourceManager.GetObject("aradashi_Transparent", resourceCulture);
@@ -126,6 +136,26 @@ namespace AradaSystemManager.Properties {
         internal static System.Drawing.Bitmap login_50px {
             get {
                 object obj = ResourceManager.GetObject("login_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap multiply_50px {
+            get {
+                object obj = ResourceManager.GetObject("multiply_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap multiply_50pxRed {
+            get {
+                object obj = ResourceManager.GetObject("multiply_50pxRed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
