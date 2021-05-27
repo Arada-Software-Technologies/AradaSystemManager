@@ -1,7 +1,7 @@
 ﻿
 namespace AradaSystemManager.Prime_UCs
 {
-    partial class UserControl1
+    partial class LandingPage
     {
         /// <summary> 
         /// Required designer variable.
@@ -277,6 +277,7 @@ namespace AradaSystemManager.Prime_UCs
             // 
             this.sysOverview_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sysOverview_btn.FlatAppearance.BorderSize = 0;
+            this.sysOverview_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
             this.sysOverview_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sysOverview_btn.Location = new System.Drawing.Point(0, 143);
             this.sysOverview_btn.Margin = new System.Windows.Forms.Padding(0);
@@ -285,15 +286,13 @@ namespace AradaSystemManager.Prime_UCs
             this.sysOverview_btn.TabIndex = 0;
             this.sysOverview_btn.Text = "System Overview";
             this.sysOverview_btn.UseVisualStyleBackColor = true;
-            this.sysOverview_btn.Click += new System.EventHandler(this.sysOverview_btn_Click);
-            this.sysOverview_btn.MouseEnter += new System.EventHandler(this.sysOverview_btn_MouseEnter);
-            this.sysOverview_btn.MouseLeave += new System.EventHandler(this.sysOverview_btn_MouseLeave);
             // 
             // gameService_btn
             // 
             this.gameService_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.gameService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gameService_btn.FlatAppearance.BorderSize = 0;
+            this.gameService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
             this.gameService_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.gameService_btn.Location = new System.Drawing.Point(0, 214);
             this.gameService_btn.Margin = new System.Windows.Forms.Padding(0);
@@ -302,13 +301,12 @@ namespace AradaSystemManager.Prime_UCs
             this.gameService_btn.TabIndex = 1;
             this.gameService_btn.Text = "Game Service";
             this.gameService_btn.UseVisualStyleBackColor = true;
-            this.gameService_btn.MouseEnter += new System.EventHandler(this.gameService_btn_MouseEnter);
-            this.gameService_btn.MouseLeave += new System.EventHandler(this.gameService_btn_MouseLeave);
             // 
             // advService_btn
             // 
             this.advService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.advService_btn.FlatAppearance.BorderSize = 0;
+            this.advService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
             this.advService_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advService_btn.Location = new System.Drawing.Point(0, 285);
             this.advService_btn.Margin = new System.Windows.Forms.Padding(0);
@@ -317,14 +315,13 @@ namespace AradaSystemManager.Prime_UCs
             this.advService_btn.TabIndex = 2;
             this.advService_btn.Text = "Advertisement Service";
             this.advService_btn.UseVisualStyleBackColor = true;
-            this.advService_btn.MouseEnter += new System.EventHandler(this.advService_btn_MouseEnter);
-            this.advService_btn.MouseLeave += new System.EventHandler(this.advService_btn_MouseLeave);
             // 
             // giftService_btn
             // 
             this.giftService_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.giftService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.giftService_btn.FlatAppearance.BorderSize = 0;
+            this.giftService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
             this.giftService_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.giftService_btn.Location = new System.Drawing.Point(0, 356);
             this.giftService_btn.Margin = new System.Windows.Forms.Padding(0);
@@ -333,14 +330,13 @@ namespace AradaSystemManager.Prime_UCs
             this.giftService_btn.TabIndex = 3;
             this.giftService_btn.Text = "Gift Service";
             this.giftService_btn.UseVisualStyleBackColor = true;
-            this.giftService_btn.MouseEnter += new System.EventHandler(this.giftService_btn_MouseEnter);
-            this.giftService_btn.MouseLeave += new System.EventHandler(this.giftService_btn_MouseLeave);
             // 
             // walletService_btn
             // 
             this.walletService_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.walletService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.walletService_btn.FlatAppearance.BorderSize = 0;
+            this.walletService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
             this.walletService_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.walletService_btn.Location = new System.Drawing.Point(0, 427);
             this.walletService_btn.Margin = new System.Windows.Forms.Padding(0);
@@ -349,14 +345,13 @@ namespace AradaSystemManager.Prime_UCs
             this.walletService_btn.TabIndex = 4;
             this.walletService_btn.Text = "Wallet Service";
             this.walletService_btn.UseVisualStyleBackColor = true;
-            this.walletService_btn.MouseEnter += new System.EventHandler(this.walletService_btn_MouseEnter);
-            this.walletService_btn.MouseLeave += new System.EventHandler(this.walletService_btn_MouseLeave);
             // 
             // gebeyaService_btn
             // 
             this.gebeyaService_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.gebeyaService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gebeyaService_btn.FlatAppearance.BorderSize = 0;
+            this.gebeyaService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
             this.gebeyaService_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.gebeyaService_btn.Location = new System.Drawing.Point(0, 498);
             this.gebeyaService_btn.Margin = new System.Windows.Forms.Padding(0);
@@ -365,8 +360,6 @@ namespace AradaSystemManager.Prime_UCs
             this.gebeyaService_btn.TabIndex = 5;
             this.gebeyaService_btn.Text = "Gebeya Service";
             this.gebeyaService_btn.UseVisualStyleBackColor = true;
-            this.gebeyaService_btn.MouseEnter += new System.EventHandler(this.gebeyaService_btn_MouseEnter);
-            this.gebeyaService_btn.MouseLeave += new System.EventHandler(this.gebeyaService_btn_MouseLeave);
             // 
             // pictureBox3
             // 

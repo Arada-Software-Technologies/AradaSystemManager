@@ -29,7 +29,7 @@ namespace AradaSystemManager
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControl11 = new AradaSystemManager.Prime_UCs.UserControl1();
+            this.userControl11 = new AradaSystemManager.Prime_UCs.LandingPage();
             this.SuspendLayout();
             // 
             // userControl11
@@ -55,7 +55,7 @@ namespace AradaSystemManager
 
         #endregion
 
-        private Prime_UCs.UserControl1 userControl11;
+        private Prime_UCs.LandingPage userControl11;
     }
 }
 
