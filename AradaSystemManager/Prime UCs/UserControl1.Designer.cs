@@ -38,9 +38,9 @@ namespace AradaSystemManager.Prime_UCs
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.profilepic = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewProfile = new System.Windows.Forms.ToolStripMenuItem();
+            this.logout = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
@@ -182,38 +182,42 @@ namespace AradaSystemManager.Prime_UCs
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(0);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(50, 50);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
+            this.profilepic});
             this.menuStrip1.Location = new System.Drawing.Point(1303, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(0);
-            this.menuStrip1.Size = new System.Drawing.Size(22, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(63, 53);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStripMenuItem1
+            // profilepic
             // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3});
-            this.toolStripMenuItem1.Image = global::AradaSystemManager.Properties.Resources.icons8_customer_50px;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Padding = new System.Windows.Forms.Padding(0);
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(20, 24);
+            this.profilepic.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewProfile,
+            this.logout});
+            this.profilepic.Image = global::AradaSystemManager.Properties.Resources.icons8_customer_50px;
+            this.profilepic.Name = "profilepic";
+            this.profilepic.Padding = new System.Windows.Forms.Padding(0);
+            this.profilepic.Size = new System.Drawing.Size(54, 53);
             // 
-            // toolStripMenuItem2
+            // viewProfile
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "toolStripMenuItem2";
+            this.viewProfile.Name = "viewProfile";
+            this.viewProfile.Padding = new System.Windows.Forms.Padding(0);
+            this.viewProfile.Size = new System.Drawing.Size(136, 20);
+            this.viewProfile.Text = "View Profile";
+            this.viewProfile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // toolStripMenuItem3
+            // logout
             // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem3.Text = "toolStripMenuItem3";
+            this.logout.Name = "logout";
+            this.logout.Padding = new System.Windows.Forms.Padding(0);
+            this.logout.Size = new System.Drawing.Size(136, 20);
+            this.logout.Text = "Logout";
             // 
             // tableLayoutPanel4
             // 
@@ -281,6 +285,7 @@ namespace AradaSystemManager.Prime_UCs
             this.sysOverview_btn.TabIndex = 0;
             this.sysOverview_btn.Text = "System Overview";
             this.sysOverview_btn.UseVisualStyleBackColor = true;
+            this.sysOverview_btn.Click += new System.EventHandler(this.sysOverview_btn_Click);
             this.sysOverview_btn.MouseEnter += new System.EventHandler(this.sysOverview_btn_MouseEnter);
             this.sysOverview_btn.MouseLeave += new System.EventHandler(this.sysOverview_btn_MouseLeave);
             // 
@@ -416,8 +421,10 @@ namespace AradaSystemManager.Prime_UCs
         private System.Windows.Forms.Button walletService_btn;
         private System.Windows.Forms.Button gebeyaService_btn;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem profilepic;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem viewProfile;
+        private System.Windows.Forms.ToolStripMenuItem logout;
     }
 }

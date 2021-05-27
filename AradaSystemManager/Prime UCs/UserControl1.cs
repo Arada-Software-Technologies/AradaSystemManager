@@ -12,7 +12,7 @@ namespace AradaSystemManager.Prime_UCs
 {
     public partial class UserControl1 : UserControl
     {
-        private Color selected = Color.FromArgb(86,58,58);
+        private Color selected = Color.FromArgb(210, 163, 164);
         private Color unselected = Color.FromArgb(245, 248, 250);
         public UserControl1()
         {
@@ -77,6 +77,11 @@ namespace AradaSystemManager.Prime_UCs
         private void gebeyaService_btn_MouseLeave(object sender, EventArgs e)
         {
             gebeyaService_btn.BackColor = unselected;
+        }
+
+        private void sysOverview_btn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
