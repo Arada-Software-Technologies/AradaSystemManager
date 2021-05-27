@@ -12,24 +12,71 @@ namespace AradaSystemManager.Prime_UCs
 {
     public partial class UserControl1 : UserControl
     {
+        private Color selected = Color.FromArgb(86,58,58);
+        private Color unselected = Color.FromArgb(245, 248, 250);
         public UserControl1()
         {
             InitializeComponent();
         }
 
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        private void sysOverview_btn_MouseEnter(object sender, EventArgs e)
         {
-
+            sysOverview_btn.BackColor = selected;
         }
 
-        private void tableLayoutPanel2_Paint_1(object sender, PaintEventArgs e)
+        private void sysOverview_btn_MouseLeave(object sender, EventArgs e)
         {
-
+            sysOverview_btn.BackColor = unselected;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void gameService_btn_MouseEnter(object sender, EventArgs e)
         {
+            gameService_btn.BackColor = selected;
+        }
 
+        private void gameService_btn_MouseLeave(object sender, EventArgs e)
+        {
+            gameService_btn.BackColor = unselected;
+        }
+
+        private void advService_btn_MouseEnter(object sender, EventArgs e)
+        {
+            advService_btn.BackColor = selected;
+        }
+
+        private void advService_btn_MouseLeave(object sender, EventArgs e)
+        {
+            advService_btn.BackColor = unselected;
+        }
+
+        private void giftService_btn_MouseEnter(object sender, EventArgs e)
+        {
+            giftService_btn.BackColor = selected;
+        }
+
+        private void giftService_btn_MouseLeave(object sender, EventArgs e)
+        {
+            giftService_btn.BackColor = unselected;
+        }
+
+        private void walletService_btn_MouseEnter(object sender, EventArgs e)
+        {
+            walletService_btn.BackColor = selected;
+        }
+
+        private void walletService_btn_MouseLeave(object sender, EventArgs e)
+        {
+            walletService_btn.BackColor = unselected;
+        }
+
+        private void gebeyaService_btn_MouseEnter(object sender, EventArgs e)
+        {
+            gebeyaService_btn.BackColor = selected;
+        }
+
+        private void gebeyaService_btn_MouseLeave(object sender, EventArgs e)
+        {
+            gebeyaService_btn.BackColor = unselected;
         }
     }
 }
