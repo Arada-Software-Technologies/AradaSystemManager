@@ -57,19 +57,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
-  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4QkWRXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAExAAIAAAAm
         AAAASgEyAAIAAAAUAAAAcIdpAAQAAAABAAAAhIglAAQAAAABAAAA8AAAAShXaW5kb3dzIFBob3RvIEVk
@@ -154,28 +154,27 @@
         M0xGLq89azenTzPBP+HVtx/0Ny/+Aa//ABVFFFKxf9sYv+Y//9k=
 </value>
   </data>
-  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 10</value>
   </data>
-  <assembly alias="System.Windows.Forms.Primitives" name="System.Windows.Forms.Primitives, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>77, 79</value>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 79</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
     <value>pictureBox1</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
     <value>tableLayoutPanel2</value>
@@ -183,35 +182,35 @@
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 30pt, style=Bold</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>100, 0</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 0</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>563, 99</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 99</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Account Create Form</value>
   </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing.Common">
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>tableLayoutPanel2</value>
@@ -225,10 +224,10 @@
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAABYRJREFUeF7t
         Wktz21QUdoZhoMMP6MbpxJIcGiz5JXvRJH6EJTMkBfKy0zrNo0lfP6O/hh0LBko3zEBXsGEDQ3kPC9K0
@@ -257,23 +256,23 @@
         Mu6FTl7C//dT2RgxYsSIESNGjBiRRiLxD6K3xmaf+cc6AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>676, 10</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 10</value>
   </data>
-  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 10, 10, 10</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>91, 79</value>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 79</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>tableLayoutPanel2</value>
@@ -284,23 +283,23 @@
   <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="tableLayoutPanel2.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>777, 99</value>
   </data>
-  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
     <value>tableLayoutPanel2</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -309,18 +308,18 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14.64435,Percent,85.35565,Absolute,110" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14.64435,Percent,85.35565,Absolute,153" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="pictureBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAeZJREFUaEPt
         l7lKA1EUhoOoZV5BS3GpxS612AayjV3Sij5BenfUwl5bFSJur5For2gliBtJYVz+A78wXG6Sm/WMcj/4
@@ -334,26 +333,26 @@
         ZDyjfMEBRAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 15</value>
   </data>
-  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>45, 15, 45, 15</value>
   </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 192</value>
   </data>
   <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
     <value>pictureBox2</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
     <value>tableLayoutPanel4</value>
@@ -361,40 +360,40 @@
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="bttCreate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="bttCreate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="bttCreate.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="bttCreate.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 533</value>
   </data>
-  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="bttCreate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 40, 45, 35</value>
   </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="bttCreate.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 39</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="bttCreate.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="button3.Text" xml:space="preserve">
+  <data name="bttCreate.Text" xml:space="preserve">
     <value>Create</value>
   </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
+  <data name="&gt;&gt;bttCreate.Name" xml:space="preserve">
+    <value>bttCreate</value>
   </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;bttCreate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;bttCreate.Parent" xml:space="preserve">
     <value>tableLayoutPanel4</value>
   </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;bttCreate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="button2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -403,10 +402,10 @@
   <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button2.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt</value>
   </data>
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAALhJREFUWEdj
         GAWjYFCBpKQk3ujo6Aog3gLEu/HgaqgW6gEHBwcWoMFngPg/MTgmJqYBqpU6IDIy0gabRfhwVFRUE1Q7
@@ -415,32 +414,32 @@
         eIXKXy8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing.Common">
+  <data name="button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 225</value>
   </data>
-  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>45, 3, 45, 3</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 36</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Add Picture</value>
   </data>
-  <data name="button2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing.Common">
+  <data name="button2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
   </data>
   <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>tableLayoutPanel4</value>
@@ -448,38 +447,38 @@
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 24.75pt, style=Bold</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 316</value>
   </data>
-  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>45, 0, 45, 0</value>
   </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 45</value>
   </data>
-  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Title</value>
   </data>
-  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing.Common">
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomLeft</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
   </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
     <value>tableLayoutPanel4</value>
@@ -487,20 +486,20 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 402</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 0</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>tableLayoutPanel4</value>
@@ -508,19 +507,19 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 364</value>
   </data>
-  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>45, 3, 45, 3</value>
   </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 29</value>
   </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="comboBox1.Text" xml:space="preserve">
@@ -530,7 +529,7 @@
     <value>comboBox1</value>
   </data>
   <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
     <value>tableLayoutPanel4</value>
@@ -541,23 +540,23 @@
   <data name="tableLayoutPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
     <value>466, 3</value>
   </data>
-  <data name="tableLayoutPanel4.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
     <value>300, 607</value>
   </data>
-  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
     <value>tableLayoutPanel4</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
     <value>tableLayoutPanel3</value>
@@ -566,43 +565,43 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button3" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label8" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel1" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboBox1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,34.83754,Absolute,42,Absolute,97,Absolute,38,Absolute,94,Absolute,114" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="bttCreate" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label8" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel1" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboBox1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,34.83754,Absolute,42,Absolute,97,Absolute,38,Absolute,94,Absolute,114" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel6.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel6.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 24.75pt, style=Bold</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 0</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>294, 60</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Basic Information</value>
   </data>
-  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing.Common">
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>tableLayoutPanel6</value>
@@ -610,25 +609,25 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tableLayoutPanel8.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel8.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 0</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 32</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
@@ -638,7 +637,7 @@
     <value>label3</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>tableLayoutPanel8</value>
@@ -646,53 +645,98 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 1</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="txtFName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="txtFName.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="txtFName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
-  <data name="txtFName.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>143, 3</value>
+  <data name="txtFName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="txtFName.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>186, 27</value>
+  <data name="txtFName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
   </data>
-  <data name="txtFName.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>1</value>
+  <data name="txtFName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtFName.Name" xml:space="preserve">
     <value>txtFName</value>
   </data>
   <data name="&gt;&gt;txtFName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtFName.Parent" xml:space="preserve">
-    <value>tableLayoutPanel8</value>
+    <value>panel2</value>
   </data>
   <data name="&gt;&gt;txtFName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 3</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 26</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel8.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 63</value>
   </data>
-  <data name="tableLayoutPanel8.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel8.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
     <value>401, 32</value>
   </data>
-  <data name="tableLayoutPanel8.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel8.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel8.Name" xml:space="preserve">
     <value>tableLayoutPanel8</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel8.Parent" xml:space="preserve">
     <value>tableLayoutPanel6</value>
@@ -701,27 +745,27 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtFName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,Percent,65" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,Percent,65" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel9.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel9.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 0</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 32</value>
   </data>
-  <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
@@ -731,7 +775,7 @@
     <value>label4</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>tableLayoutPanel9</value>
@@ -739,53 +783,98 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 1</value>
+  </data>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="txtLName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="txtLName.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="txtLName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
-  <data name="txtLName.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>143, 3</value>
+  <data name="txtLName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="txtLName.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>186, 27</value>
+  <data name="txtLName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
   </data>
-  <data name="txtLName.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>1</value>
+  <data name="txtLName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtLName.Name" xml:space="preserve">
     <value>txtLName</value>
   </data>
   <data name="&gt;&gt;txtLName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtLName.Parent" xml:space="preserve">
-    <value>tableLayoutPanel9</value>
+    <value>panel4</value>
   </data>
   <data name="&gt;&gt;txtLName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 3</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 26</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>tableLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel9.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 101</value>
   </data>
-  <data name="tableLayoutPanel9.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel9.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing">
     <value>401, 32</value>
   </data>
-  <data name="tableLayoutPanel9.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel9.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel9.Name" xml:space="preserve">
     <value>tableLayoutPanel9</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel9.Parent" xml:space="preserve">
     <value>tableLayoutPanel6</value>
@@ -794,27 +883,27 @@
     <value>2</value>
   </data>
   <data name="tableLayoutPanel9.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label4" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtLName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,Percent,65" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label4" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel4" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,Percent,65" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel10.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel10.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>74, 0</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 32</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
@@ -824,7 +913,7 @@
     <value>label5</value>
   </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>tableLayoutPanel10</value>
@@ -832,53 +921,98 @@
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 1</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="txtEmail.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="txtEmail.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="txtEmail.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
-  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>143, 3</value>
+  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>186, 27</value>
+  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
   </data>
-  <data name="txtEmail.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>1</value>
+  <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
     <value>txtEmail</value>
   </data>
   <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
-    <value>tableLayoutPanel10</value>
+    <value>panel5</value>
   </data>
   <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 3</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 26</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>tableLayoutPanel10</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel10.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 139</value>
   </data>
-  <data name="tableLayoutPanel10.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel10.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
     <value>401, 32</value>
   </data>
-  <data name="tableLayoutPanel10.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel10.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel10.Name" xml:space="preserve">
     <value>tableLayoutPanel10</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel10.Parent" xml:space="preserve">
     <value>tableLayoutPanel6</value>
@@ -887,27 +1021,27 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel10.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label5" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtEmail" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,Percent,65" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label5" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel5" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,Percent,65" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel11.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel11.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 0</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 35</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
@@ -917,7 +1051,7 @@
     <value>label6</value>
   </data>
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>tableLayoutPanel11</value>
@@ -925,53 +1059,98 @@
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 1</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="txtPNumber.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="txtPNumber.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="txtPNumber.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
-  <data name="txtPNumber.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>143, 3</value>
+  <data name="txtPNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="txtPNumber.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>186, 27</value>
+  <data name="txtPNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
   </data>
-  <data name="txtPNumber.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>1</value>
+  <data name="txtPNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtPNumber.Name" xml:space="preserve">
     <value>txtPNumber</value>
   </data>
   <data name="&gt;&gt;txtPNumber.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtPNumber.Parent" xml:space="preserve">
-    <value>tableLayoutPanel11</value>
+    <value>panel6</value>
   </data>
   <data name="&gt;&gt;txtPNumber.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 3</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 29</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>tableLayoutPanel11</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel11.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel11.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 177</value>
   </data>
-  <data name="tableLayoutPanel11.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel11.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel11.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel11.Size" type="System.Drawing.Size, System.Drawing">
     <value>401, 35</value>
   </data>
-  <data name="tableLayoutPanel11.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel11.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel11.Name" xml:space="preserve">
     <value>tableLayoutPanel11</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel11.Parent" xml:space="preserve">
     <value>tableLayoutPanel6</value>
@@ -980,31 +1159,31 @@
     <value>4</value>
   </data>
   <data name="tableLayoutPanel11.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label6" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPNumber" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,Percent,65" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label6" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel6" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,35,Percent,65" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel6.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 25</value>
   </data>
-  <data name="tableLayoutPanel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="tableLayoutPanel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>25, 25, 25, 30</value>
   </data>
-  <data name="tableLayoutPanel6.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel6.RowCount" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="tableLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing">
     <value>407, 215</value>
   </data>
-  <data name="tableLayoutPanel6.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel6.Name" xml:space="preserve">
     <value>tableLayoutPanel6</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel6.Parent" xml:space="preserve">
     <value>tableLayoutPanel5</value>
@@ -1015,38 +1194,38 @@
   <data name="tableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel8" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel9" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel10" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel11" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,28,Percent,18,Percent,18,Percent,18,Percent,18" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel7.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel7.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 24.75pt, style=Bold</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 0</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>203, 60</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 65</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Permissions</value>
   </data>
-  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing.Common">
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
   </data>
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>tableLayoutPanel7</value>
@@ -1054,55 +1233,40 @@
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tableLayoutPanel12.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel12.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 1</value>
+  </data>
+  <data name="panel11.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="radioSystemOverview.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
+  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
+    <value>panel11</value>
   </data>
-  <data name="radioSystemOverview.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="radioSystemOverview.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
+    <value>panel10</value>
   </data>
-  <data name="radioSystemOverview.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>48, 3</value>
-  </data>
-  <data name="radioSystemOverview.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>14, 24</value>
-  </data>
-  <data name="radioSystemOverview.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;radioSystemOverview.Name" xml:space="preserve">
-    <value>radioSystemOverview</value>
+  <data name="comboSystemoverview.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;radioSystemOverview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboSystemoverview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, -1</value>
   </data>
-  <data name="&gt;&gt;radioSystemOverview.Parent" xml:space="preserve">
-    <value>tableLayoutPanel12</value>
+  <data name="comboSystemoverview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 23</value>
   </data>
-  <data name="&gt;&gt;radioSystemOverview.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="comboSystemoverview.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="comboSystemoverview.Font" type="System.Drawing.Font, System.Drawing.Common">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="comboSystemoverview.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>68, 3</value>
-  </data>
-  <data name="comboSystemoverview.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
-    <value>3, 3, 10, 3</value>
-  </data>
-  <data name="comboSystemoverview.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>249, 25</value>
-  </data>
-  <data name="comboSystemoverview.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="comboSystemoverview.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="comboSystemoverview.Text" xml:space="preserve">
@@ -1112,37 +1276,85 @@
     <value>comboSystemoverview</value>
   </data>
   <data name="&gt;&gt;comboSystemoverview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboSystemoverview.Parent" xml:space="preserve">
-    <value>tableLayoutPanel12</value>
+    <value>panel10</value>
   </data>
   <data name="&gt;&gt;comboSystemoverview.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="radioSystemoverview.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioSystemoverview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 3</value>
+  </data>
+  <data name="radioSystemoverview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radioSystemoverview.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioSystemoverview.Name" xml:space="preserve">
+    <value>radioSystemoverview</value>
+  </data>
+  <data name="&gt;&gt;radioSystemoverview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioSystemoverview.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;radioSystemoverview.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 26</value>
+  </data>
+  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>tableLayoutPanel12</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel12.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>40, 63</value>
+  <data name="tableLayoutPanel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 68</value>
   </data>
-  <data name="tableLayoutPanel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="tableLayoutPanel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 3, 40, 3</value>
   </data>
-  <data name="tableLayoutPanel12.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel12.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel12.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>327, 30</value>
+  <data name="tableLayoutPanel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 32</value>
   </data>
-  <data name="tableLayoutPanel12.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel12.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel12.Name" xml:space="preserve">
     <value>tableLayoutPanel12</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel12.Parent" xml:space="preserve">
     <value>tableLayoutPanel7</value>
@@ -1151,55 +1363,43 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel12.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioSystemOverview" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboSystemoverview" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,80" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel10" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel13.ColumnCount" type="System.Int32, System.Private.CoreLib">
-    <value>2</value>
+  <data name="tableLayoutPanel13.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="radioGameservice.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
+  <data name="panel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 21</value>
   </data>
-  <data name="radioGameservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="panel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 1</value>
   </data>
-  <data name="radioGameservice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioGameservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>48, 3</value>
-  </data>
-  <data name="radioGameservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>14, 24</value>
-  </data>
-  <data name="radioGameservice.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="panel14.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;radioGameservice.Name" xml:space="preserve">
-    <value>radioGameservice</value>
+  <data name="&gt;&gt;panel14.Name" xml:space="preserve">
+    <value>panel14</value>
   </data>
-  <data name="&gt;&gt;radioGameservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;panel14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioGameservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel13</value>
+  <data name="&gt;&gt;panel14.Parent" xml:space="preserve">
+    <value>panel12</value>
   </data>
-  <data name="&gt;&gt;radioGameservice.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panel14.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="comboGameservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="comboGameservice.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="comboGameservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>68, 3</value>
+  <data name="comboGameservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, -1</value>
   </data>
-  <data name="comboGameservice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
-    <value>3, 3, 10, 3</value>
-  </data>
-  <data name="comboGameservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="comboGameservice.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 23</value>
   </data>
-  <data name="comboGameservice.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
+  <data name="comboGameservice.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="comboGameservice.Text" xml:space="preserve">
     <value>Game Service</value>
@@ -1208,37 +1408,85 @@
     <value>comboGameservice</value>
   </data>
   <data name="&gt;&gt;comboGameservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboGameservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel13</value>
+    <value>panel12</value>
   </data>
   <data name="&gt;&gt;comboGameservice.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="radioGameservice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGameservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 3</value>
+  </data>
+  <data name="radioGameservice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radioGameservice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioGameservice.Name" xml:space="preserve">
+    <value>radioGameservice</value>
+  </data>
+  <data name="&gt;&gt;radioGameservice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioGameservice.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;radioGameservice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 26</value>
+  </data>
+  <data name="panel12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
+    <value>tableLayoutPanel13</value>
+  </data>
+  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel13.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>40, 99</value>
+  <data name="tableLayoutPanel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 106</value>
   </data>
-  <data name="tableLayoutPanel13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="tableLayoutPanel13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 3, 40, 3</value>
   </data>
-  <data name="tableLayoutPanel13.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel13.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel13.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>327, 30</value>
+  <data name="tableLayoutPanel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 32</value>
   </data>
-  <data name="tableLayoutPanel13.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel13.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel13.Name" xml:space="preserve">
     <value>tableLayoutPanel13</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel13.Parent" xml:space="preserve">
     <value>tableLayoutPanel7</value>
@@ -1247,52 +1495,43 @@
     <value>2</value>
   </data>
   <data name="tableLayoutPanel13.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioGameservice" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboGameservice" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,80" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel12" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel14.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel14.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="panel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 1</value>
+  </data>
+  <data name="panel15.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="radioWalletservice.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
+  <data name="&gt;&gt;panel15.Name" xml:space="preserve">
+    <value>panel15</value>
   </data>
-  <data name="radioWalletservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;panel15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="radioWalletservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>48, 3</value>
+  <data name="&gt;&gt;panel15.Parent" xml:space="preserve">
+    <value>panel13</value>
   </data>
-  <data name="radioWalletservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>14, 24</value>
-  </data>
-  <data name="radioWalletservice.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="&gt;&gt;panel15.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;radioWalletservice.Name" xml:space="preserve">
-    <value>radioWalletservice</value>
+  <data name="comboWalletservice.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;radioWalletservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboWalletservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, -1</value>
   </data>
-  <data name="&gt;&gt;radioWalletservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel14</value>
-  </data>
-  <data name="&gt;&gt;radioWalletservice.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="comboWalletservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="comboWalletservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>68, 3</value>
-  </data>
-  <data name="comboWalletservice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
-    <value>3, 3, 10, 3</value>
-  </data>
-  <data name="comboWalletservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="comboWalletservice.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 23</value>
   </data>
-  <data name="comboWalletservice.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
+  <data name="comboWalletservice.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="comboWalletservice.Text" xml:space="preserve">
     <value>Wallet Service</value>
@@ -1301,37 +1540,85 @@
     <value>comboWalletservice</value>
   </data>
   <data name="&gt;&gt;comboWalletservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboWalletservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel14</value>
+    <value>panel13</value>
   </data>
   <data name="&gt;&gt;comboWalletservice.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="radioWalletservice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioWalletservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 3</value>
+  </data>
+  <data name="radioWalletservice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radioWalletservice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioWalletservice.Name" xml:space="preserve">
+    <value>radioWalletservice</value>
+  </data>
+  <data name="&gt;&gt;radioWalletservice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioWalletservice.Parent" xml:space="preserve">
+    <value>panel13</value>
+  </data>
+  <data name="&gt;&gt;radioWalletservice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 26</value>
+  </data>
+  <data name="panel13.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel13.Name" xml:space="preserve">
+    <value>panel13</value>
+  </data>
+  <data name="&gt;&gt;panel13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel13.Parent" xml:space="preserve">
+    <value>tableLayoutPanel14</value>
+  </data>
+  <data name="&gt;&gt;panel13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel14.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>40, 135</value>
+  <data name="tableLayoutPanel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 144</value>
   </data>
-  <data name="tableLayoutPanel14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="tableLayoutPanel14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 3, 40, 3</value>
   </data>
-  <data name="tableLayoutPanel14.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel14.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel14.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>327, 30</value>
+  <data name="tableLayoutPanel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 32</value>
   </data>
-  <data name="tableLayoutPanel14.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel14.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel14.Name" xml:space="preserve">
     <value>tableLayoutPanel14</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel14.Parent" xml:space="preserve">
     <value>tableLayoutPanel7</value>
@@ -1340,52 +1627,43 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel14.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioWalletservice" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboWalletservice" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,80" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel13" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel15.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel15.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="panel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 1</value>
+  </data>
+  <data name="panel19.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="radioGebeyaservice.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
+  <data name="&gt;&gt;panel19.Name" xml:space="preserve">
+    <value>panel19</value>
   </data>
-  <data name="radioGebeyaservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;panel19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="radioGebeyaservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>48, 3</value>
+  <data name="&gt;&gt;panel19.Parent" xml:space="preserve">
+    <value>panel18</value>
   </data>
-  <data name="radioGebeyaservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>14, 24</value>
-  </data>
-  <data name="radioGebeyaservice.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="&gt;&gt;panel19.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;radioGebeyaservice.Name" xml:space="preserve">
-    <value>radioGebeyaservice</value>
+  <data name="comboGebeyaservice.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;radioGebeyaservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboGebeyaservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, -1</value>
   </data>
-  <data name="&gt;&gt;radioGebeyaservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel15</value>
-  </data>
-  <data name="&gt;&gt;radioGebeyaservice.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="comboGebeyaservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="comboGebeyaservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>68, 3</value>
-  </data>
-  <data name="comboGebeyaservice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
-    <value>3, 3, 10, 3</value>
-  </data>
-  <data name="comboGebeyaservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="comboGebeyaservice.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 23</value>
   </data>
-  <data name="comboGebeyaservice.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
+  <data name="comboGebeyaservice.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="comboGebeyaservice.Text" xml:space="preserve">
     <value>Gebeya Service</value>
@@ -1394,37 +1672,85 @@
     <value>comboGebeyaservice</value>
   </data>
   <data name="&gt;&gt;comboGebeyaservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboGebeyaservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel15</value>
+    <value>panel18</value>
   </data>
   <data name="&gt;&gt;comboGebeyaservice.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="radioGebeyaservice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGebeyaservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 3</value>
+  </data>
+  <data name="radioGebeyaservice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radioGebeyaservice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioGebeyaservice.Name" xml:space="preserve">
+    <value>radioGebeyaservice</value>
+  </data>
+  <data name="&gt;&gt;radioGebeyaservice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioGebeyaservice.Parent" xml:space="preserve">
+    <value>panel18</value>
+  </data>
+  <data name="&gt;&gt;radioGebeyaservice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel18.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 26</value>
+  </data>
+  <data name="panel18.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel18.Name" xml:space="preserve">
+    <value>panel18</value>
+  </data>
+  <data name="&gt;&gt;panel18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel18.Parent" xml:space="preserve">
+    <value>tableLayoutPanel15</value>
+  </data>
+  <data name="&gt;&gt;panel18.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel15.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>40, 207</value>
+  <data name="tableLayoutPanel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 220</value>
   </data>
-  <data name="tableLayoutPanel15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="tableLayoutPanel15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 3, 40, 3</value>
   </data>
-  <data name="tableLayoutPanel15.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel15.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel15.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>327, 30</value>
+  <data name="tableLayoutPanel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 32</value>
   </data>
-  <data name="tableLayoutPanel15.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel15.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel15.Name" xml:space="preserve">
     <value>tableLayoutPanel15</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel15.Parent" xml:space="preserve">
     <value>tableLayoutPanel7</value>
@@ -1433,52 +1759,43 @@
     <value>4</value>
   </data>
   <data name="tableLayoutPanel15.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioGebeyaservice" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboGebeyaservice" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,80" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel18" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel16.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel16.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="panel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 1</value>
+  </data>
+  <data name="panel17.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="radioAdvertisementservice.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
+  <data name="&gt;&gt;panel17.Name" xml:space="preserve">
+    <value>panel17</value>
   </data>
-  <data name="radioAdvertisementservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;panel17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="radioAdvertisementservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>48, 3</value>
+  <data name="&gt;&gt;panel17.Parent" xml:space="preserve">
+    <value>panel16</value>
   </data>
-  <data name="radioAdvertisementservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>14, 24</value>
-  </data>
-  <data name="radioAdvertisementservice.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="&gt;&gt;panel17.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;radioAdvertisementservice.Name" xml:space="preserve">
-    <value>radioAdvertisementservice</value>
+  <data name="comboAdvertisementservice.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;radioAdvertisementservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboAdvertisementservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, -1</value>
   </data>
-  <data name="&gt;&gt;radioAdvertisementservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel16</value>
-  </data>
-  <data name="&gt;&gt;radioAdvertisementservice.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="comboAdvertisementservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="comboAdvertisementservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>68, 3</value>
-  </data>
-  <data name="comboAdvertisementservice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
-    <value>3, 3, 10, 3</value>
-  </data>
-  <data name="comboAdvertisementservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="comboAdvertisementservice.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 23</value>
   </data>
-  <data name="comboAdvertisementservice.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>0</value>
+  <data name="comboAdvertisementservice.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="comboAdvertisementservice.Text" xml:space="preserve">
     <value>Advertisement Service</value>
@@ -1487,37 +1804,85 @@
     <value>comboAdvertisementservice</value>
   </data>
   <data name="&gt;&gt;comboAdvertisementservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboAdvertisementservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel16</value>
+    <value>panel16</value>
   </data>
   <data name="&gt;&gt;comboAdvertisementservice.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="radioAdvertisementservice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioAdvertisementservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 3</value>
+  </data>
+  <data name="radioAdvertisementservice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radioAdvertisementservice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioAdvertisementservice.Name" xml:space="preserve">
+    <value>radioAdvertisementservice</value>
+  </data>
+  <data name="&gt;&gt;radioAdvertisementservice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioAdvertisementservice.Parent" xml:space="preserve">
+    <value>panel16</value>
+  </data>
+  <data name="&gt;&gt;radioAdvertisementservice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 26</value>
+  </data>
+  <data name="panel16.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel16.Name" xml:space="preserve">
+    <value>panel16</value>
+  </data>
+  <data name="&gt;&gt;panel16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel16.Parent" xml:space="preserve">
+    <value>tableLayoutPanel16</value>
+  </data>
+  <data name="&gt;&gt;panel16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel16.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>40, 171</value>
+  <data name="tableLayoutPanel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 182</value>
   </data>
-  <data name="tableLayoutPanel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="tableLayoutPanel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 3, 40, 3</value>
   </data>
-  <data name="tableLayoutPanel16.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel16.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel16.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>327, 30</value>
+  <data name="tableLayoutPanel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 32</value>
   </data>
-  <data name="tableLayoutPanel16.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel16.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel16.Name" xml:space="preserve">
     <value>tableLayoutPanel16</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel16.Parent" xml:space="preserve">
     <value>tableLayoutPanel7</value>
@@ -1526,51 +1891,42 @@
     <value>5</value>
   </data>
   <data name="tableLayoutPanel16.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioAdvertisementservice" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboAdvertisementservice" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,80" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel16" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <data name="tableLayoutPanel17.ColumnCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel17.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="panel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 1</value>
+  </data>
+  <data name="panel21.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="radioGiftservice.AutoSize" type="System.Boolean, System.Private.CoreLib">
-    <value>True</value>
+  <data name="&gt;&gt;panel21.Name" xml:space="preserve">
+    <value>panel21</value>
   </data>
-  <data name="radioGiftservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;panel21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="radioGiftservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>48, 3</value>
+  <data name="&gt;&gt;panel21.Parent" xml:space="preserve">
+    <value>panel20</value>
   </data>
-  <data name="radioGiftservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>14, 25</value>
-  </data>
-  <data name="radioGiftservice.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="&gt;&gt;panel21.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;radioGiftservice.Name" xml:space="preserve">
-    <value>radioGiftservice</value>
+  <data name="comboGiftservice.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;radioGiftservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="comboGiftservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, -1</value>
   </data>
-  <data name="&gt;&gt;radioGiftservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel17</value>
-  </data>
-  <data name="&gt;&gt;radioGiftservice.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="comboGiftservice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="comboGiftservice.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>68, 3</value>
-  </data>
-  <data name="comboGiftservice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
-    <value>3, 3, 10, 3</value>
-  </data>
-  <data name="comboGiftservice.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="comboGiftservice.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 23</value>
   </data>
-  <data name="comboGiftservice.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="comboGiftservice.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="comboGiftservice.Text" xml:space="preserve">
@@ -1580,37 +1936,85 @@
     <value>comboGiftservice</value>
   </data>
   <data name="&gt;&gt;comboGiftservice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;comboGiftservice.Parent" xml:space="preserve">
-    <value>tableLayoutPanel17</value>
+    <value>panel20</value>
   </data>
   <data name="&gt;&gt;comboGiftservice.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="radioGiftservice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGiftservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 3</value>
+  </data>
+  <data name="radioGiftservice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="radioGiftservice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioGiftservice.Name" xml:space="preserve">
+    <value>radioGiftservice</value>
+  </data>
+  <data name="&gt;&gt;radioGiftservice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioGiftservice.Parent" xml:space="preserve">
+    <value>panel20</value>
+  </data>
+  <data name="&gt;&gt;radioGiftservice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel20.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 30</value>
+  </data>
+  <data name="panel20.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel20.Name" xml:space="preserve">
+    <value>panel20</value>
+  </data>
+  <data name="&gt;&gt;panel20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel20.Parent" xml:space="preserve">
+    <value>tableLayoutPanel17</value>
+  </data>
+  <data name="&gt;&gt;panel20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel17.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel17.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>40, 243</value>
+  <data name="tableLayoutPanel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 258</value>
   </data>
-  <data name="tableLayoutPanel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="tableLayoutPanel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 3, 40, 3</value>
   </data>
-  <data name="tableLayoutPanel17.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel17.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel17.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>327, 31</value>
+  <data name="tableLayoutPanel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 36</value>
   </data>
-  <data name="tableLayoutPanel17.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel17.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel17.Name" xml:space="preserve">
     <value>tableLayoutPanel17</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel17.Parent" xml:space="preserve">
     <value>tableLayoutPanel7</value>
@@ -1619,31 +2023,31 @@
     <value>6</value>
   </data>
   <data name="tableLayoutPanel17.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="radioGiftservice" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="comboGiftservice" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,80" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel20" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 295</value>
   </data>
-  <data name="tableLayoutPanel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
-    <value>25, 25, 25, 35</value>
+  <data name="tableLayoutPanel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>25, 25, 25, 15</value>
   </data>
-  <data name="tableLayoutPanel7.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel7.RowCount" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>407, 277</value>
+  <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>407, 297</value>
   </data>
-  <data name="tableLayoutPanel7.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel7.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel7.Name" xml:space="preserve">
     <value>tableLayoutPanel7</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel7.Parent" xml:space="preserve">
     <value>tableLayoutPanel5</value>
@@ -1657,23 +2061,23 @@
   <data name="tableLayoutPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="tableLayoutPanel5.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>457, 607</value>
   </data>
-  <data name="tableLayoutPanel5.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel5.Name" xml:space="preserve">
     <value>tableLayoutPanel5</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel5.Parent" xml:space="preserve">
     <value>tableLayoutPanel3</value>
@@ -1687,26 +2091,26 @@
   <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 112</value>
   </data>
-  <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms.Primitives">
+  <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="tableLayoutPanel3.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>769, 613</value>
   </data>
-  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
     <value>tableLayoutPanel3</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
     <value>tableLayoutPanel1</value>
@@ -1720,23 +2124,23 @@
   <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>783, 732</value>
   </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
     <value>tableLayoutPanel1</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1747,13 +2151,13 @@
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,50,Absolute,627" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>783, 732</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
@@ -1766,6 +2170,6 @@
     <value>AccountCreate</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=5.0.6.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

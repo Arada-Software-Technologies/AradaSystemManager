@@ -36,5 +36,15 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

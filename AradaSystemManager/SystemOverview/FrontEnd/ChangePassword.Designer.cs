@@ -1,7 +1,7 @@
 ﻿
 namespace AradaSystemManager.SystemOverview.FrontEnd
 {
-    partial class AccountView
+    partial class ChangePassword
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChangePassword));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -37,23 +37,11 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.bttDeactivate = new System.Windows.Forms.Button();
-            this.bttEdit = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.labelCreatedby = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.labelCreatedon = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.labelAccountstatus = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
@@ -109,16 +97,28 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel21 = new System.Windows.Forms.Panel();
             this.comboGiftservice = new System.Windows.Forms.ComboBox();
             this.radioGiftservice = new System.Windows.Forms.RadioButton();
+            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.txtOldpassword = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.txtNewpassword = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.txtConfirmnewpassword = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.bttChangepassword = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            this.panel25.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel22.SuspendLayout();
-            this.panel23.SuspendLayout();
-            this.panel24.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
@@ -142,6 +142,11 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel16.SuspendLayout();
             this.tableLayoutPanel17.SuspendLayout();
             this.panel20.SuspendLayout();
+            this.tableLayoutPanel18.SuspendLayout();
+            this.panel22.SuspendLayout();
+            this.panel23.SuspendLayout();
+            this.panel24.SuspendLayout();
+            this.panel25.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -156,8 +161,8 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 627F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(783, 732);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 819F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(784, 918);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // tableLayoutPanel2
@@ -166,7 +171,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.64435F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 85.35565F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 146F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 155F));
             this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.button1, 2, 0);
@@ -175,7 +180,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(777, 99);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(778, 93);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // pictureBox1
@@ -186,7 +191,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.pictureBox1.Location = new System.Drawing.Point(10, 10);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(10);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(72, 79);
+            this.pictureBox1.Size = new System.Drawing.Size(71, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -197,9 +202,9 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(95, 0);
+            this.label1.Location = new System.Drawing.Point(94, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(532, 99);
+            this.label1.Size = new System.Drawing.Size(525, 93);
             this.label1.TabIndex = 1;
             this.label1.Text = "Account View Form";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -212,10 +217,10 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(640, 10);
+            this.button1.Location = new System.Drawing.Point(632, 10);
             this.button1.Margin = new System.Windows.Forms.Padding(10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 79);
+            this.button1.Size = new System.Drawing.Size(136, 73);
             this.button1.TabIndex = 2;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -229,78 +234,34 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel5, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(7, 112);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(7, 106);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(7);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(769, 613);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(770, 805);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 1;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.panel25, 0, 8);
             this.tableLayoutPanel4.Controls.Add(this.pictureBox2, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.button2, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label8, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.panel1, 0, 4);
             this.tableLayoutPanel4.Controls.Add(this.comboBox1, 0, 3);
-            this.tableLayoutPanel4.Controls.Add(this.panel22, 0, 4);
-            this.tableLayoutPanel4.Controls.Add(this.panel23, 0, 5);
-            this.tableLayoutPanel4.Controls.Add(this.panel1, 0, 7);
-            this.tableLayoutPanel4.Controls.Add(this.panel24, 0, 6);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(466, 3);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 9;
+            this.tableLayoutPanel4.RowCount = 5;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.83754F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 73F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 82F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(300, 607);
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 102F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(301, 799);
             this.tableLayoutPanel4.TabIndex = 0;
-            this.tableLayoutPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel4_Paint);
-            // 
-            // panel25
-            // 
-            this.panel25.Controls.Add(this.bttDeactivate);
-            this.panel25.Controls.Add(this.bttEdit);
-            this.panel25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel25.Location = new System.Drawing.Point(3, 528);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(294, 76);
-            this.panel25.TabIndex = 2;
-            // 
-            // bttDeactivate
-            // 
-            this.bttDeactivate.BackColor = System.Drawing.Color.Sienna;
-            this.bttDeactivate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttDeactivate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttDeactivate.Location = new System.Drawing.Point(145, 25);
-            this.bttDeactivate.Name = "bttDeactivate";
-            this.bttDeactivate.Size = new System.Drawing.Size(107, 33);
-            this.bttDeactivate.TabIndex = 1;
-            this.bttDeactivate.Text = "Deactivate";
-            this.bttDeactivate.UseVisualStyleBackColor = false;
-            // 
-            // bttEdit
-            // 
-            this.bttEdit.BackColor = System.Drawing.Color.Sienna;
-            this.bttEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttEdit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttEdit.Location = new System.Drawing.Point(42, 25);
-            this.bttEdit.Name = "bttEdit";
-            this.bttEdit.Size = new System.Drawing.Size(75, 33);
-            this.bttEdit.TabIndex = 0;
-            this.bttEdit.Text = "Edit";
-            this.bttEdit.UseVisualStyleBackColor = false;
-            this.bttEdit.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox2
             // 
@@ -311,7 +272,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.pictureBox2.Location = new System.Drawing.Point(45, 15);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(45, 15, 45, 15);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(210, 189);
+            this.pictureBox2.Size = new System.Drawing.Size(211, 274);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -321,13 +282,12 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(45, 222);
+            this.button2.Location = new System.Drawing.Point(45, 307);
             this.button2.Margin = new System.Windows.Forms.Padding(45, 3, 45, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(210, 39);
+            this.button2.Size = new System.Drawing.Size(211, 42);
             this.button2.TabIndex = 2;
             this.button2.Text = "Add Picture";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -339,83 +299,13 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label8.Location = new System.Drawing.Point(45, 292);
+            this.label8.Location = new System.Drawing.Point(45, 409);
             this.label8.Margin = new System.Windows.Forms.Padding(45, 0, 45, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(210, 45);
+            this.label8.Size = new System.Drawing.Size(211, 45);
             this.label8.TabIndex = 3;
             this.label8.Text = "Title";
             this.label8.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(45, 340);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(45, 3, 45, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(210, 29);
-            this.comboBox1.TabIndex = 4;
-            this.comboBox1.Text = "Title";
-            // 
-            // panel22
-            // 
-            this.panel22.Controls.Add(this.labelCreatedby);
-            this.panel22.Controls.Add(this.label9);
-            this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel22.Location = new System.Drawing.Point(3, 375);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(294, 56);
-            this.panel22.TabIndex = 5;
-            // 
-            // labelCreatedby
-            // 
-            this.labelCreatedby.AutoSize = true;
-            this.labelCreatedby.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelCreatedby.Location = new System.Drawing.Point(144, 34);
-            this.labelCreatedby.Name = "labelCreatedby";
-            this.labelCreatedby.Size = new System.Drawing.Size(0, 17);
-            this.labelCreatedby.TabIndex = 1;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(42, 31);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 21);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Created by:";
-            // 
-            // panel23
-            // 
-            this.panel23.Controls.Add(this.labelCreatedon);
-            this.panel23.Controls.Add(this.label10);
-            this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel23.Location = new System.Drawing.Point(3, 437);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(294, 30);
-            this.panel23.TabIndex = 6;
-            // 
-            // labelCreatedon
-            // 
-            this.labelCreatedon.AutoSize = true;
-            this.labelCreatedon.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelCreatedon.Location = new System.Drawing.Point(144, 6);
-            this.labelCreatedon.Name = "labelCreatedon";
-            this.labelCreatedon.Size = new System.Drawing.Size(0, 17);
-            this.labelCreatedon.TabIndex = 1;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(42, 3);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(97, 21);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Created on:";
             // 
             // panel1
             // 
@@ -426,35 +316,18 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel1.Size = new System.Drawing.Size(200, 0);
             this.panel1.TabIndex = 0;
             // 
-            // panel24
+            // comboBox1
             // 
-            this.panel24.Controls.Add(this.labelAccountstatus);
-            this.panel24.Controls.Add(this.label11);
-            this.panel24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel24.Location = new System.Drawing.Point(3, 473);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(294, 30);
-            this.panel24.TabIndex = 7;
-            // 
-            // labelAccountstatus
-            // 
-            this.labelAccountstatus.AutoSize = true;
-            this.labelAccountstatus.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelAccountstatus.Location = new System.Drawing.Point(176, 4);
-            this.labelAccountstatus.Name = "labelAccountstatus";
-            this.labelAccountstatus.Size = new System.Drawing.Size(0, 17);
-            this.labelAccountstatus.TabIndex = 1;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(42, 1);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(128, 21);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Account Status:";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
+            this.comboBox1.BackColor = System.Drawing.Color.White;
+            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(45, 457);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(45, 3, 45, 3);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(210, 29);
+            this.comboBox1.TabIndex = 4;
+            this.comboBox1.Text = "Title";
             // 
             // tableLayoutPanel5
             // 
@@ -462,13 +335,15 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel6, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel7, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel18, 0, 2);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 2;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.55285F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55.44715F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(457, 607);
+            this.tableLayoutPanel5.RowCount = 3;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.27363F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.72637F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 191F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(457, 799);
             this.tableLayoutPanel5.TabIndex = 1;
             // 
             // tableLayoutPanel6
@@ -483,7 +358,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel11, 0, 4);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(25, 25);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(25, 25, 25, 30);
+            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(25, 25, 25, 20);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 5;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28F));
@@ -491,7 +366,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(407, 215);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(407, 230);
             this.tableLayoutPanel6.TabIndex = 0;
             // 
             // label2
@@ -502,7 +377,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(294, 60);
+            this.label2.Size = new System.Drawing.Size(294, 64);
             this.label2.TabIndex = 0;
             this.label2.Text = "Basic Information";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -515,11 +390,11 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel8.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel8.Controls.Add(this.panel2, 1, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 63);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 67);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(401, 32);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(401, 35);
             this.tableLayoutPanel8.TabIndex = 1;
             // 
             // label3
@@ -530,7 +405,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(27, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 32);
+            this.label3.Size = new System.Drawing.Size(110, 35);
             this.label3.TabIndex = 0;
             this.label3.Text = "First Name:";
             // 
@@ -541,7 +416,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(143, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(255, 26);
+            this.panel2.Size = new System.Drawing.Size(255, 29);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -572,11 +447,11 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel9.Controls.Add(this.label4, 0, 0);
             this.tableLayoutPanel9.Controls.Add(this.panel4, 1, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 101);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 108);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 1;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(401, 32);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(401, 35);
             this.tableLayoutPanel9.TabIndex = 2;
             // 
             // label4
@@ -587,7 +462,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label4.Location = new System.Drawing.Point(30, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 32);
+            this.label4.Size = new System.Drawing.Size(107, 35);
             this.label4.TabIndex = 0;
             this.label4.Text = "Last Name:";
             // 
@@ -598,7 +473,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(143, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(255, 26);
+            this.panel4.Size = new System.Drawing.Size(255, 29);
             this.panel4.TabIndex = 1;
             // 
             // panel7
@@ -629,11 +504,11 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel10.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel10.Controls.Add(this.panel5, 1, 0);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 139);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 149);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 1;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(401, 32);
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(401, 35);
             this.tableLayoutPanel10.TabIndex = 3;
             // 
             // label5
@@ -644,7 +519,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label5.Location = new System.Drawing.Point(74, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 32);
+            this.label5.Size = new System.Drawing.Size(63, 35);
             this.label5.TabIndex = 0;
             this.label5.Text = "Email:";
             // 
@@ -655,7 +530,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(143, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(255, 26);
+            this.panel5.Size = new System.Drawing.Size(255, 29);
             this.panel5.TabIndex = 1;
             // 
             // panel8
@@ -686,11 +561,11 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel11.Controls.Add(this.label6, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.panel6, 1, 0);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 177);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 190);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(401, 35);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(401, 37);
             this.tableLayoutPanel11.TabIndex = 4;
             // 
             // label6
@@ -701,7 +576,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label6.Location = new System.Drawing.Point(30, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 35);
+            this.label6.Size = new System.Drawing.Size(107, 37);
             this.label6.TabIndex = 0;
             this.label6.Text = "Phone No.:";
             // 
@@ -712,7 +587,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(143, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(255, 29);
+            this.panel6.Size = new System.Drawing.Size(255, 31);
             this.panel6.TabIndex = 1;
             // 
             // panel9
@@ -748,8 +623,8 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel16, 0, 4);
             this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel17, 0, 6);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(25, 295);
-            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(25, 25, 25, 15);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(25, 290);
+            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(25, 15, 25, 15);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 7;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22F));
@@ -759,7 +634,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(407, 297);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(407, 302);
             this.tableLayoutPanel7.TabIndex = 1;
             // 
             // label7
@@ -770,7 +645,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label7.Location = new System.Drawing.Point(3, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(203, 65);
+            this.label7.Size = new System.Drawing.Size(203, 66);
             this.label7.TabIndex = 0;
             this.label7.Text = "Permissions";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -781,12 +656,12 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel12.Controls.Add(this.panel10, 0, 0);
             this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(40, 68);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(40, 69);
             this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(40, 3, 40, 3);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 1;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(327, 32);
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(327, 33);
             this.tableLayoutPanel12.TabIndex = 1;
             // 
             // panel10
@@ -797,7 +672,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(3, 3);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(321, 26);
+            this.panel10.Size = new System.Drawing.Size(321, 27);
             this.panel10.TabIndex = 0;
             // 
             // panel11
@@ -836,12 +711,12 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel13.Controls.Add(this.panel12, 0, 0);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(40, 106);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(40, 108);
             this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(40, 3, 40, 3);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             this.tableLayoutPanel13.RowCount = 1;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(327, 32);
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(327, 33);
             this.tableLayoutPanel13.TabIndex = 2;
             // 
             // panel12
@@ -852,7 +727,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel12.Location = new System.Drawing.Point(3, 3);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(321, 26);
+            this.panel12.Size = new System.Drawing.Size(321, 27);
             this.panel12.TabIndex = 0;
             // 
             // panel14
@@ -891,12 +766,12 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel14.Controls.Add(this.panel13, 0, 0);
             this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(40, 144);
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(40, 147);
             this.tableLayoutPanel14.Margin = new System.Windows.Forms.Padding(40, 3, 40, 3);
             this.tableLayoutPanel14.Name = "tableLayoutPanel14";
             this.tableLayoutPanel14.RowCount = 1;
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(327, 32);
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(327, 33);
             this.tableLayoutPanel14.TabIndex = 3;
             // 
             // panel13
@@ -907,7 +782,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel13.Location = new System.Drawing.Point(3, 3);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(321, 26);
+            this.panel13.Size = new System.Drawing.Size(321, 27);
             this.panel13.TabIndex = 0;
             // 
             // panel15
@@ -946,12 +821,12 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel15.Controls.Add(this.panel18, 0, 0);
             this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel15.Location = new System.Drawing.Point(40, 220);
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(40, 225);
             this.tableLayoutPanel15.Margin = new System.Windows.Forms.Padding(40, 3, 40, 3);
             this.tableLayoutPanel15.Name = "tableLayoutPanel15";
             this.tableLayoutPanel15.RowCount = 1;
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel15.Size = new System.Drawing.Size(327, 32);
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(327, 33);
             this.tableLayoutPanel15.TabIndex = 4;
             // 
             // panel18
@@ -962,7 +837,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel18.Location = new System.Drawing.Point(3, 3);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(321, 26);
+            this.panel18.Size = new System.Drawing.Size(321, 27);
             this.panel18.TabIndex = 0;
             // 
             // panel19
@@ -1001,12 +876,12 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel16.Controls.Add(this.panel16, 0, 0);
             this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel16.Location = new System.Drawing.Point(40, 182);
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(40, 186);
             this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(40, 3, 40, 3);
             this.tableLayoutPanel16.Name = "tableLayoutPanel16";
             this.tableLayoutPanel16.RowCount = 1;
             this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel16.Size = new System.Drawing.Size(327, 32);
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(327, 33);
             this.tableLayoutPanel16.TabIndex = 5;
             // 
             // panel16
@@ -1017,7 +892,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel16.Location = new System.Drawing.Point(3, 3);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(321, 26);
+            this.panel16.Size = new System.Drawing.Size(321, 27);
             this.panel16.TabIndex = 0;
             // 
             // panel17
@@ -1056,12 +931,12 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel17.Controls.Add(this.panel20, 0, 0);
             this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel17.Location = new System.Drawing.Point(40, 258);
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(40, 264);
             this.tableLayoutPanel17.Margin = new System.Windows.Forms.Padding(40, 3, 40, 3);
             this.tableLayoutPanel17.Name = "tableLayoutPanel17";
             this.tableLayoutPanel17.RowCount = 1;
             this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel17.Size = new System.Drawing.Size(327, 36);
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(327, 35);
             this.tableLayoutPanel17.TabIndex = 6;
             // 
             // panel20
@@ -1072,7 +947,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel20.Location = new System.Drawing.Point(3, 3);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(321, 30);
+            this.panel20.Size = new System.Drawing.Size(321, 29);
             this.panel20.TabIndex = 0;
             // 
             // panel21
@@ -1105,16 +980,187 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.radioGiftservice.TabStop = true;
             this.radioGiftservice.UseVisualStyleBackColor = true;
             // 
-            // AccountView
+            // tableLayoutPanel18
+            // 
+            this.tableLayoutPanel18.BackColor = System.Drawing.Color.AliceBlue;
+            this.tableLayoutPanel18.ColumnCount = 1;
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel18.Controls.Add(this.label9, 0, 0);
+            this.tableLayoutPanel18.Controls.Add(this.panel22, 0, 1);
+            this.tableLayoutPanel18.Controls.Add(this.panel23, 0, 2);
+            this.tableLayoutPanel18.Controls.Add(this.panel24, 0, 3);
+            this.tableLayoutPanel18.Controls.Add(this.panel25, 0, 4);
+            this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(25, 622);
+            this.tableLayoutPanel18.Margin = new System.Windows.Forms.Padding(25, 15, 25, 5);
+            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+            this.tableLayoutPanel18.RowCount = 5;
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.52632F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.47368F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(407, 172);
+            this.tableLayoutPanel18.TabIndex = 2;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(3, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(292, 45);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Change Password";
+            // 
+            // panel22
+            // 
+            this.panel22.Controls.Add(this.panel26);
+            this.panel22.Controls.Add(this.txtOldpassword);
+            this.panel22.Controls.Add(this.label10);
+            this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel22.Location = new System.Drawing.Point(3, 49);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(401, 24);
+            this.panel22.TabIndex = 1;
+            // 
+            // panel26
+            // 
+            this.panel26.BackColor = System.Drawing.Color.Black;
+            this.panel26.Location = new System.Drawing.Point(173, 19);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(182, 1);
+            this.panel26.TabIndex = 2;
+            // 
+            // txtOldpassword
+            // 
+            this.txtOldpassword.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtOldpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtOldpassword.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtOldpassword.Location = new System.Drawing.Point(172, -3);
+            this.txtOldpassword.Name = "txtOldpassword";
+            this.txtOldpassword.Size = new System.Drawing.Size(182, 20);
+            this.txtOldpassword.TabIndex = 1;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(66, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(101, 20);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Old Password:";
+            // 
+            // panel23
+            // 
+            this.panel23.Controls.Add(this.panel27);
+            this.panel23.Controls.Add(this.txtNewpassword);
+            this.panel23.Controls.Add(this.label11);
+            this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel23.Location = new System.Drawing.Point(3, 79);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(401, 22);
+            this.panel23.TabIndex = 2;
+            // 
+            // panel27
+            // 
+            this.panel27.BackColor = System.Drawing.Color.Black;
+            this.panel27.Location = new System.Drawing.Point(173, 16);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(182, 1);
+            this.panel27.TabIndex = 2;
+            // 
+            // txtNewpassword
+            // 
+            this.txtNewpassword.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtNewpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNewpassword.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNewpassword.Location = new System.Drawing.Point(173, -2);
+            this.txtNewpassword.Name = "txtNewpassword";
+            this.txtNewpassword.Size = new System.Drawing.Size(181, 20);
+            this.txtNewpassword.TabIndex = 1;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.Location = new System.Drawing.Point(60, -3);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(107, 20);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "New Password:";
+            // 
+            // panel24
+            // 
+            this.panel24.Controls.Add(this.panel28);
+            this.panel24.Controls.Add(this.txtConfirmnewpassword);
+            this.panel24.Controls.Add(this.label12);
+            this.panel24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel24.Location = new System.Drawing.Point(3, 107);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(401, 24);
+            this.panel24.TabIndex = 3;
+            // 
+            // panel28
+            // 
+            this.panel28.BackColor = System.Drawing.Color.Black;
+            this.panel28.Location = new System.Drawing.Point(173, 18);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(181, 1);
+            this.panel28.TabIndex = 2;
+            // 
+            // txtConfirmnewpassword
+            // 
+            this.txtConfirmnewpassword.BackColor = System.Drawing.Color.AliceBlue;
+            this.txtConfirmnewpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtConfirmnewpassword.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtConfirmnewpassword.Location = new System.Drawing.Point(173, -1);
+            this.txtConfirmnewpassword.Name = "txtConfirmnewpassword";
+            this.txtConfirmnewpassword.Size = new System.Drawing.Size(181, 20);
+            this.txtConfirmnewpassword.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(3, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(164, 20);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Confirm New Password:";
+            // 
+            // panel25
+            // 
+            this.panel25.Controls.Add(this.bttChangepassword);
+            this.panel25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel25.Location = new System.Drawing.Point(3, 137);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(401, 32);
+            this.panel25.TabIndex = 4;
+            // 
+            // bttChangepassword
+            // 
+            this.bttChangepassword.BackColor = System.Drawing.Color.Sienna;
+            this.bttChangepassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttChangepassword.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bttChangepassword.Location = new System.Drawing.Point(262, 0);
+            this.bttChangepassword.Name = "bttChangepassword";
+            this.bttChangepassword.Size = new System.Drawing.Size(124, 29);
+            this.bttChangepassword.TabIndex = 0;
+            this.bttChangepassword.Text = "Change Password";
+            this.bttChangepassword.UseVisualStyleBackColor = false;
+            // 
+            // ChangePassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 732);
+            this.ClientSize = new System.Drawing.Size(784, 918);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AccountView";
+            this.Name = "ChangePassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AccountView";
+            this.Text = "ChangePassword";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
@@ -1122,14 +1168,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            this.panel25.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel22.ResumeLayout(false);
-            this.panel22.PerformLayout();
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
-            this.panel24.ResumeLayout(false);
-            this.panel24.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
@@ -1169,6 +1208,15 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel17.ResumeLayout(false);
             this.panel20.ResumeLayout(false);
             this.panel20.PerformLayout();
+            this.tableLayoutPanel18.ResumeLayout(false);
+            this.tableLayoutPanel18.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            this.panel22.PerformLayout();
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            this.panel24.ResumeLayout(false);
+            this.panel24.PerformLayout();
+            this.panel25.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1242,17 +1290,21 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.ComboBox comboGiftservice;
         private System.Windows.Forms.RadioButton radioGiftservice;
-        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.TextBox txtOldpassword;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel23;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel panel27;
+        private System.Windows.Forms.TextBox txtNewpassword;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button bttDeactivate;
-        private System.Windows.Forms.Button bttEdit;
-        private System.Windows.Forms.Label labelCreatedby;
-        private System.Windows.Forms.Label labelCreatedon;
-        private System.Windows.Forms.Label labelAccountstatus;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.TextBox txtConfirmnewpassword;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button bttChangepassword;
     }
 }
