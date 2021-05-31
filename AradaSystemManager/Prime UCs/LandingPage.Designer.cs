@@ -250,6 +250,7 @@ namespace AradaSystemManager.Prime_UCs
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel5.BackColor = System.Drawing.Color.AliceBlue;
             this.tableLayoutPanel5.ColumnCount = 1;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel5.Controls.Add(this.sysOverview_btn, 0, 1);
@@ -275,6 +276,7 @@ namespace AradaSystemManager.Prime_UCs
             // 
             // sysOverview_btn
             // 
+            this.sysOverview_btn.BackColor = System.Drawing.Color.White;
             this.sysOverview_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sysOverview_btn.FlatAppearance.BorderSize = 0;
             this.sysOverview_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
@@ -285,11 +287,12 @@ namespace AradaSystemManager.Prime_UCs
             this.sysOverview_btn.Size = new System.Drawing.Size(204, 71);
             this.sysOverview_btn.TabIndex = 0;
             this.sysOverview_btn.Text = "System Overview";
-            this.sysOverview_btn.UseVisualStyleBackColor = true;
+            this.sysOverview_btn.UseVisualStyleBackColor = false;
             // 
             // gameService_btn
             // 
             this.gameService_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.gameService_btn.BackColor = System.Drawing.Color.White;
             this.gameService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gameService_btn.FlatAppearance.BorderSize = 0;
             this.gameService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
@@ -300,10 +303,11 @@ namespace AradaSystemManager.Prime_UCs
             this.gameService_btn.Size = new System.Drawing.Size(204, 71);
             this.gameService_btn.TabIndex = 1;
             this.gameService_btn.Text = "Game Service";
-            this.gameService_btn.UseVisualStyleBackColor = true;
+            this.gameService_btn.UseVisualStyleBackColor = false;
             // 
             // advService_btn
             // 
+            this.advService_btn.BackColor = System.Drawing.Color.White;
             this.advService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.advService_btn.FlatAppearance.BorderSize = 0;
             this.advService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
@@ -314,11 +318,12 @@ namespace AradaSystemManager.Prime_UCs
             this.advService_btn.Size = new System.Drawing.Size(204, 71);
             this.advService_btn.TabIndex = 2;
             this.advService_btn.Text = "Advertisement Service";
-            this.advService_btn.UseVisualStyleBackColor = true;
+            this.advService_btn.UseVisualStyleBackColor = false;
             // 
             // giftService_btn
             // 
             this.giftService_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.giftService_btn.BackColor = System.Drawing.Color.White;
             this.giftService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.giftService_btn.FlatAppearance.BorderSize = 0;
             this.giftService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
@@ -329,11 +334,12 @@ namespace AradaSystemManager.Prime_UCs
             this.giftService_btn.Size = new System.Drawing.Size(204, 71);
             this.giftService_btn.TabIndex = 3;
             this.giftService_btn.Text = "Gift Service";
-            this.giftService_btn.UseVisualStyleBackColor = true;
+            this.giftService_btn.UseVisualStyleBackColor = false;
             // 
             // walletService_btn
             // 
             this.walletService_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.walletService_btn.BackColor = System.Drawing.Color.White;
             this.walletService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.walletService_btn.FlatAppearance.BorderSize = 0;
             this.walletService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
@@ -344,11 +350,12 @@ namespace AradaSystemManager.Prime_UCs
             this.walletService_btn.Size = new System.Drawing.Size(204, 71);
             this.walletService_btn.TabIndex = 4;
             this.walletService_btn.Text = "Wallet Service";
-            this.walletService_btn.UseVisualStyleBackColor = true;
+            this.walletService_btn.UseVisualStyleBackColor = false;
             // 
             // gebeyaService_btn
             // 
             this.gebeyaService_btn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.gebeyaService_btn.BackColor = System.Drawing.Color.White;
             this.gebeyaService_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gebeyaService_btn.FlatAppearance.BorderSize = 0;
             this.gebeyaService_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
@@ -359,7 +366,7 @@ namespace AradaSystemManager.Prime_UCs
             this.gebeyaService_btn.Size = new System.Drawing.Size(204, 71);
             this.gebeyaService_btn.TabIndex = 5;
             this.gebeyaService_btn.Text = "Gebeya Service";
-            this.gebeyaService_btn.UseVisualStyleBackColor = true;
+            this.gebeyaService_btn.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
@@ -369,12 +376,12 @@ namespace AradaSystemManager.Prime_UCs
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
-            // UserControl1
+            // LandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "UserControl1";
+            this.Name = "LandingPage";
             this.Size = new System.Drawing.Size(1366, 768);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
