@@ -14,7 +14,12 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
     {
         public NotificationForm()
         {
-            InitializeComponent();
+            InitializeComponent();            
+        }
+
+        private void close_btn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

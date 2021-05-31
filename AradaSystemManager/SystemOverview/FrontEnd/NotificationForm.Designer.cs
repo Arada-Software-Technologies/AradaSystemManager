@@ -29,18 +29,22 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.close_btn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.notification_tbl = new System.Windows.Forms.DataGridView();
             this.description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.generator = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,7 +58,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel3.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.notification_tbl)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -93,7 +97,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.label1, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.close_btn, 3, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -125,21 +129,22 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label1.Text = "Notifications";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // close_btn
             // 
-            this.button1.AutoEllipsis = true;
-            this.button1.BackgroundImage = global::AradaSystemManager.Properties.Resources.icons8_multiply_64px;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(584, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(66, 65);
-            this.button1.TabIndex = 2;
-            this.button1.UseVisualStyleBackColor = true;
+            this.close_btn.AutoEllipsis = true;
+            this.close_btn.BackgroundImage = global::AradaSystemManager.Properties.Resources.icons8_multiply_64px;
+            this.close_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.close_btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.close_btn.FlatAppearance.BorderSize = 0;
+            this.close_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.close_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.close_btn.Location = new System.Drawing.Point(584, 0);
+            this.close_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.close_btn.Name = "close_btn";
+            this.close_btn.Size = new System.Drawing.Size(66, 65);
+            this.close_btn.TabIndex = 2;
+            this.close_btn.UseVisualStyleBackColor = true;
+            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
             // 
             // panel2
             // 
@@ -183,7 +188,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.tableLayoutPanel4.ColumnCount = 1;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Controls.Add(this.label2, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.dataGridView1, 0, 1);
+            this.tableLayoutPanel4.Controls.Add(this.notification_tbl, 0, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(20, 20);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -205,55 +210,101 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.label2.Text = "Notifications";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // dataGridView1
+            // notification_tbl
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.notification_tbl.AllowUserToAddRows = false;
+            this.notification_tbl.AllowUserToDeleteRows = false;
+            this.notification_tbl.AllowUserToResizeRows = false;
+            this.notification_tbl.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.notification_tbl.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.notification_tbl.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
+            this.notification_tbl.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.notification_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.notification_tbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.notification_tbl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.description,
             this.generator,
             this.date,
             this.authorize,
             this.deny});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 27);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(544, 455);
-            this.dataGridView1.TabIndex = 1;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.notification_tbl.DefaultCellStyle = dataGridViewCellStyle12;
+            this.notification_tbl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.notification_tbl.EnableHeadersVisualStyles = false;
+            this.notification_tbl.GridColor = System.Drawing.Color.AliceBlue;
+            this.notification_tbl.Location = new System.Drawing.Point(0, 24);
+            this.notification_tbl.Margin = new System.Windows.Forms.Padding(0);
+            this.notification_tbl.Name = "notification_tbl";
+            this.notification_tbl.ReadOnly = true;
+            this.notification_tbl.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.notification_tbl.RowHeadersVisible = false;
+            this.notification_tbl.RowTemplate.Height = 25;
+            this.notification_tbl.Size = new System.Drawing.Size(550, 461);
+            this.notification_tbl.TabIndex = 1;
             // 
             // description
             // 
             this.description.HeaderText = "Description";
             this.description.Name = "description";
             this.description.ReadOnly = true;
+            this.description.Width = 180;
             // 
             // generator
             // 
             this.generator.HeaderText = "Notification Generator";
             this.generator.Name = "generator";
             this.generator.ReadOnly = true;
+            this.generator.Width = 180;
             // 
             // date
             // 
             this.date.HeaderText = "Date";
             this.date.Name = "date";
             this.date.ReadOnly = true;
+            this.date.Width = 70;
             // 
             // authorize
             // 
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Green;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Black;
+            this.authorize.DefaultCellStyle = dataGridViewCellStyle10;
+            this.authorize.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.authorize.HeaderText = "Action";
             this.authorize.Name = "authorize";
             this.authorize.ReadOnly = true;
+            this.authorize.Text = "Authorize";
+            this.authorize.UseColumnTextForButtonValue = true;
+            this.authorize.Width = 60;
             // 
             // deny
             // 
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Red;
+            this.deny.DefaultCellStyle = dataGridViewCellStyle11;
+            this.deny.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.deny.HeaderText = "";
             this.deny.Name = "deny";
             this.deny.ReadOnly = true;
+            this.deny.Text = "Deny";
+            this.deny.UseColumnTextForButtonValue = true;
+            this.deny.Width = 60;
             // 
             // NotificationForm
             // 
@@ -275,7 +326,7 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
             this.panel3.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.notification_tbl)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -287,13 +338,13 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button close_btn;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView notification_tbl;
         private System.Windows.Forms.DataGridViewTextBoxColumn description;
         private System.Windows.Forms.DataGridViewTextBoxColumn generator;
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
