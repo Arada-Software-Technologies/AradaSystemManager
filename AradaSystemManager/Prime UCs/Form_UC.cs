@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace AradaSystemManager.Prime_UCs
 {
-    public partial class Overview_UC : UserControl
+    public partial class Form_UC : UserControl
     {
-        public Overview_UC()
+        public Form_UC()
         {
             InitializeComponent();
-        }
-
-        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
