@@ -106,7 +106,7 @@ namespace AradaSystemManager.Game_Manager
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 67F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(823, 532);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(811, 532);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -117,7 +117,7 @@ namespace AradaSystemManager.Game_Manager
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.15867F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 286F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 147F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 115F));
             this.tableLayoutPanel2.Controls.Add(this.panel6, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.title, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.button1, 4, 0);
@@ -126,7 +126,7 @@ namespace AradaSystemManager.Game_Manager
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(819, 61);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(805, 61);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // panel6
@@ -134,7 +134,7 @@ namespace AradaSystemManager.Game_Manager
             this.panel6.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel6.Location = new System.Drawing.Point(13, 5);
+            this.panel6.Location = new System.Drawing.Point(8, 5);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(72, 51);
@@ -145,7 +145,7 @@ namespace AradaSystemManager.Game_Manager
             this.title.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.title.AutoSize = true;
             this.title.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.title.Location = new System.Drawing.Point(311, 16);
+            this.title.Location = new System.Drawing.Point(296, 16);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(206, 28);
             this.title.TabIndex = 0;
@@ -156,7 +156,7 @@ namespace AradaSystemManager.Game_Manager
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(731, 10);
+            this.button1.Location = new System.Drawing.Point(717, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 41);
             this.button1.TabIndex = 1;
@@ -175,13 +175,13 @@ namespace AradaSystemManager.Game_Manager
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel5, 2, 1);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel6, 2, 2);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 81);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 70);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 3;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.50443F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 68.8299F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.66568F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(809, 446);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(805, 459);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // tableLayoutPanel4
@@ -192,13 +192,13 @@ namespace AradaSystemManager.Game_Manager
             this.tableLayoutPanel4.Controls.Add(this.panel4, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.panel5, 0, 2);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(275, 55);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(271, 55);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 3;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(267, 307);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(262, 309);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // panel3
@@ -209,7 +209,7 @@ namespace AradaSystemManager.Game_Manager
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(261, 96);
+            this.panel3.Size = new System.Drawing.Size(256, 96);
             this.panel3.TabIndex = 0;
             // 
             // comboBox1
@@ -226,7 +226,7 @@ namespace AradaSystemManager.Game_Manager
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(18, 12);
+            this.label1.Location = new System.Drawing.Point(16, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 28);
             this.label1.TabIndex = 1;
@@ -240,7 +240,7 @@ namespace AradaSystemManager.Game_Manager
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(3, 105);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(261, 96);
+            this.panel4.Size = new System.Drawing.Size(256, 96);
             this.panel4.TabIndex = 1;
             // 
             // dateTimePicker1
@@ -256,7 +256,7 @@ namespace AradaSystemManager.Game_Manager
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(18, 11);
+            this.label2.Location = new System.Drawing.Point(16, 11);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 28);
             this.label2.TabIndex = 1;
@@ -271,7 +271,7 @@ namespace AradaSystemManager.Game_Manager
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(3, 207);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(261, 97);
+            this.panel5.Size = new System.Drawing.Size(256, 99);
             this.panel5.TabIndex = 2;
             // 
             // Public
@@ -301,7 +301,7 @@ namespace AradaSystemManager.Game_Manager
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(18, 12);
+            this.label3.Location = new System.Drawing.Point(16, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 28);
             this.label3.TabIndex = 1;
@@ -327,7 +327,7 @@ namespace AradaSystemManager.Game_Manager
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 55);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(266, 307);
+            this.panel1.Size = new System.Drawing.Size(262, 309);
             this.panel1.TabIndex = 1;
             // 
             // textBox5
@@ -443,7 +443,7 @@ namespace AradaSystemManager.Game_Manager
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(27, 81);
+            this.label6.Location = new System.Drawing.Point(25, 82);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(131, 28);
             this.label6.TabIndex = 2;
@@ -454,7 +454,7 @@ namespace AradaSystemManager.Game_Manager
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(27, 3);
+            this.label5.Location = new System.Drawing.Point(25, 4);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(126, 28);
             this.label5.TabIndex = 1;
@@ -466,12 +466,12 @@ namespace AradaSystemManager.Game_Manager
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel5.Controls.Add(this.panel2, 0, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(548, 55);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(539, 55);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(268, 307);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(263, 309);
             this.tableLayoutPanel5.TabIndex = 2;
             // 
             // panel2
@@ -495,7 +495,7 @@ namespace AradaSystemManager.Game_Manager
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(262, 198);
+            this.panel2.Size = new System.Drawing.Size(257, 199);
             this.panel2.TabIndex = 0;
             // 
             // textBox2
@@ -654,7 +654,7 @@ namespace AradaSystemManager.Game_Manager
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(13, 12);
+            this.label4.Location = new System.Drawing.Point(10, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(211, 28);
             this.label4.TabIndex = 1;
@@ -667,21 +667,21 @@ namespace AradaSystemManager.Game_Manager
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.Controls.Add(this.button2, 1, 1);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(548, 368);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(539, 370);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 2;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(268, 85);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(263, 86);
             this.tableLayoutPanel6.TabIndex = 3;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightCoral;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Location = new System.Drawing.Point(137, 45);
+            this.button2.Location = new System.Drawing.Point(134, 46);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 37);
+            this.button2.Size = new System.Drawing.Size(126, 37);
             this.button2.TabIndex = 0;
             this.button2.Text = "Create Game";
             this.button2.UseVisualStyleBackColor = false;
@@ -690,7 +690,7 @@ namespace AradaSystemManager.Game_Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(823, 532);
+            this.ClientSize = new System.Drawing.Size(811, 532);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "CreateGameForm";
             this.Text = "Game Creation Form";
