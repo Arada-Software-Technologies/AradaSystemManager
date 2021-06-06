@@ -27,5 +27,10 @@ namespace AradaSystemManager
         {
 
         }
+
+        private void cardManagement_uc1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
