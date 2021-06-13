@@ -21,5 +21,10 @@ namespace AradaSystemManager.SystemOverview.FrontEnd
         {
             Application.Exit();
         }
+
+        private void comboSystemoverview_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
