@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AradaSystemManager.Gebeya.FrontEnd
 {
-    public partial class cardMangement_UC : UserControl
+    public partial class hagerManagement_UC : UserControl
     {
-        public cardMangement_UC()
+        public hagerManagement_UC()
         {
-            InitializeComponent();
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
+            InitializeComponent();            
         }
     }
 }

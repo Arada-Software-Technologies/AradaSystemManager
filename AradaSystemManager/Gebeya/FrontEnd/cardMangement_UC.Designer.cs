@@ -29,14 +29,14 @@ namespace AradaSystemManager.Gebeya.FrontEnd
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.hager_btn = new System.Windows.Forms.Button();
+            this.card_btn = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
@@ -44,8 +44,8 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.statActive_check = new System.Windows.Forms.CheckBox();
+            this.statInactive_check = new System.Windows.Forms.CheckBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
@@ -58,16 +58,16 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.panel10 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.exDateBefore_txt = new System.Windows.Forms.TextBox();
+            this.exDateAfter_txt = new System.Windows.Forms.TextBox();
             this.searchPanelLayout = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.searchby_combo = new System.Windows.Forms.ComboBox();
+            this.search_txt = new System.Windows.Forms.TextBox();
+            this.search_btn = new System.Windows.Forms.Button();
+            this.otherReports_btn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.notification_tbl = new System.Windows.Forms.DataGridView();
+            this.data_tbl = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telecom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.supplier = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -97,7 +97,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.searchPanelLayout.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.notification_tbl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.data_tbl)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -135,8 +135,8 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.button2, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.hager_btn, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.card_btn, 0, 2);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
@@ -162,42 +162,42 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.label1.Text = "Options";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // button1
+            // hager_btn
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Image = global::AradaSystemManager.Properties.Resources.icons8_mobile_20px;
-            this.button1.Location = new System.Drawing.Point(0, 60);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 30);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Hager Management";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.hager_btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.hager_btn.FlatAppearance.BorderSize = 0;
+            this.hager_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.hager_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
+            this.hager_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hager_btn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hager_btn.Image = global::AradaSystemManager.Properties.Resources.icons8_mobile_20px;
+            this.hager_btn.Location = new System.Drawing.Point(0, 60);
+            this.hager_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.hager_btn.Name = "hager_btn";
+            this.hager_btn.Size = new System.Drawing.Size(187, 30);
+            this.hager_btn.TabIndex = 1;
+            this.hager_btn.Text = "Hager Management";
+            this.hager_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.hager_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.hager_btn.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // card_btn
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.button2.Image = global::AradaSystemManager.Properties.Resources.icons8_box_20px;
-            this.button2.Location = new System.Drawing.Point(0, 90);
-            this.button2.Margin = new System.Windows.Forms.Padding(0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(187, 30);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Card Management   ";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
+            this.card_btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.card_btn.FlatAppearance.BorderSize = 0;
+            this.card_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.card_btn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.card_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.card_btn.Image = global::AradaSystemManager.Properties.Resources.icons8_box_20px;
+            this.card_btn.Location = new System.Drawing.Point(0, 90);
+            this.card_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.card_btn.Name = "card_btn";
+            this.card_btn.Size = new System.Drawing.Size(187, 30);
+            this.card_btn.TabIndex = 2;
+            this.card_btn.Text = "Card Management   ";
+            this.card_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.card_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.card_btn.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
@@ -287,8 +287,8 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.tableLayoutPanel6.ColumnCount = 1;
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel6.Controls.Add(this.label3, 0, 0);
-            this.tableLayoutPanel6.Controls.Add(this.checkBox1, 0, 1);
-            this.tableLayoutPanel6.Controls.Add(this.checkBox2, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.statActive_check, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.statInactive_check, 0, 2);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
@@ -313,29 +313,29 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.label3.Text = "By Status";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // checkBox1
+            // statActive_check
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox1.Location = new System.Drawing.Point(20, 36);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(126, 27);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Active";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.statActive_check.AutoSize = true;
+            this.statActive_check.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.statActive_check.Location = new System.Drawing.Point(20, 36);
+            this.statActive_check.Margin = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.statActive_check.Name = "statActive_check";
+            this.statActive_check.Size = new System.Drawing.Size(126, 27);
+            this.statActive_check.TabIndex = 1;
+            this.statActive_check.Text = "Active";
+            this.statActive_check.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // statInactive_check
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox2.Location = new System.Drawing.Point(20, 63);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(126, 27);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Inactive";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.statInactive_check.AutoSize = true;
+            this.statInactive_check.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.statInactive_check.Location = new System.Drawing.Point(20, 63);
+            this.statInactive_check.Margin = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.statInactive_check.Name = "statInactive_check";
+            this.statInactive_check.Size = new System.Drawing.Size(126, 27);
+            this.statInactive_check.TabIndex = 2;
+            this.statInactive_check.Text = "Inactive";
+            this.statInactive_check.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
@@ -464,8 +464,8 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.tableLayoutPanel10.ColumnCount = 1;
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel10.Controls.Add(this.label6, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.textBox2, 0, 1);
-            this.tableLayoutPanel10.Controls.Add(this.textBox3, 0, 2);
+            this.tableLayoutPanel10.Controls.Add(this.exDateBefore_txt, 0, 1);
+            this.tableLayoutPanel10.Controls.Add(this.exDateAfter_txt, 0, 2);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
@@ -490,21 +490,21 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.label6.Text = "By Expire Date";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBox2
+            // exDateBefore_txt
             // 
-            this.textBox2.Location = new System.Drawing.Point(3, 29);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PlaceholderText = "Before";
-            this.textBox2.Size = new System.Drawing.Size(140, 23);
-            this.textBox2.TabIndex = 1;
+            this.exDateBefore_txt.Location = new System.Drawing.Point(3, 29);
+            this.exDateBefore_txt.Name = "exDateBefore_txt";
+            this.exDateBefore_txt.PlaceholderText = "Before";
+            this.exDateBefore_txt.Size = new System.Drawing.Size(140, 23);
+            this.exDateBefore_txt.TabIndex = 1;
             // 
-            // textBox3
+            // exDateAfter_txt
             // 
-            this.textBox3.Location = new System.Drawing.Point(3, 48);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PlaceholderText = "After";
-            this.textBox3.Size = new System.Drawing.Size(140, 23);
-            this.textBox3.TabIndex = 2;
+            this.exDateAfter_txt.Location = new System.Drawing.Point(3, 48);
+            this.exDateAfter_txt.Name = "exDateAfter_txt";
+            this.exDateAfter_txt.PlaceholderText = "After";
+            this.exDateAfter_txt.Size = new System.Drawing.Size(140, 23);
+            this.exDateAfter_txt.TabIndex = 2;
             // 
             // searchPanelLayout
             // 
@@ -532,10 +532,10 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel8.Controls.Add(this.comboBox1, 0, 0);
-            this.tableLayoutPanel8.Controls.Add(this.textBox1, 2, 0);
-            this.tableLayoutPanel8.Controls.Add(this.button3, 4, 0);
-            this.tableLayoutPanel8.Controls.Add(this.button4, 6, 0);
+            this.tableLayoutPanel8.Controls.Add(this.searchby_combo, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.search_txt, 2, 0);
+            this.tableLayoutPanel8.Controls.Add(this.search_btn, 4, 0);
+            this.tableLayoutPanel8.Controls.Add(this.otherReports_btn, 6, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(0);
@@ -545,56 +545,56 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.tableLayoutPanel8.Size = new System.Drawing.Size(943, 39);
             this.tableLayoutPanel8.TabIndex = 0;
             // 
-            // comboBox1
+            // searchby_combo
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.searchby_combo.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.searchby_combo.FormattingEnabled = true;
+            this.searchby_combo.Items.AddRange(new object[] {
             "Search By"});
-            this.comboBox1.Location = new System.Drawing.Point(0, 8);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(150, 23);
-            this.comboBox1.TabIndex = 0;
+            this.searchby_combo.Location = new System.Drawing.Point(0, 8);
+            this.searchby_combo.Margin = new System.Windows.Forms.Padding(0);
+            this.searchby_combo.Name = "searchby_combo";
+            this.searchby_combo.Size = new System.Drawing.Size(150, 23);
+            this.searchby_combo.TabIndex = 0;
             // 
-            // textBox1
+            // search_txt
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox1.Location = new System.Drawing.Point(160, 8);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "Search";
-            this.textBox1.Size = new System.Drawing.Size(150, 23);
-            this.textBox1.TabIndex = 1;
+            this.search_txt.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.search_txt.Location = new System.Drawing.Point(160, 8);
+            this.search_txt.Margin = new System.Windows.Forms.Padding(0);
+            this.search_txt.Name = "search_txt";
+            this.search_txt.PlaceholderText = "Search";
+            this.search_txt.Size = new System.Drawing.Size(150, 23);
+            this.search_txt.TabIndex = 1;
             // 
-            // button3
+            // search_btn
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button3.Location = new System.Drawing.Point(315, 8);
-            this.button3.Margin = new System.Windows.Forms.Padding(0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Search";
-            this.button3.UseVisualStyleBackColor = true;
+            this.search_btn.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.search_btn.Location = new System.Drawing.Point(315, 8);
+            this.search_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.search_btn.Name = "search_btn";
+            this.search_btn.Size = new System.Drawing.Size(50, 23);
+            this.search_btn.TabIndex = 2;
+            this.search_btn.Text = "Search";
+            this.search_btn.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // otherReports_btn
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(846, 8);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(94, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Other Reports";
-            this.button4.UseVisualStyleBackColor = false;
+            this.otherReports_btn.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.otherReports_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.otherReports_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.otherReports_btn.Location = new System.Drawing.Point(846, 6);
+            this.otherReports_btn.Name = "otherReports_btn";
+            this.otherReports_btn.Size = new System.Drawing.Size(94, 27);
+            this.otherReports_btn.TabIndex = 3;
+            this.otherReports_btn.Text = "Other Reports";
+            this.otherReports_btn.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
             this.panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel4.BackColor = System.Drawing.Color.AliceBlue;
-            this.panel4.Controls.Add(this.notification_tbl);
+            this.panel4.Controls.Add(this.data_tbl);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 39);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
@@ -602,25 +602,25 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.panel4.Size = new System.Drawing.Size(943, 527);
             this.panel4.TabIndex = 1;
             // 
-            // notification_tbl
+            // data_tbl
             // 
-            this.notification_tbl.AllowUserToAddRows = false;
-            this.notification_tbl.AllowUserToDeleteRows = false;
-            this.notification_tbl.AllowUserToResizeRows = false;
-            this.notification_tbl.BackgroundColor = System.Drawing.Color.AliceBlue;
-            this.notification_tbl.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.notification_tbl.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
-            this.notification_tbl.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.notification_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.notification_tbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.notification_tbl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.data_tbl.AllowUserToAddRows = false;
+            this.data_tbl.AllowUserToDeleteRows = false;
+            this.data_tbl.AllowUserToResizeRows = false;
+            this.data_tbl.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.data_tbl.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.data_tbl.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
+            this.data_tbl.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.data_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.data_tbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.data_tbl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.telecom,
             this.supplier,
@@ -629,26 +629,26 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.cardvalue,
             this.expiredate,
             this.status});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.notification_tbl.DefaultCellStyle = dataGridViewCellStyle2;
-            this.notification_tbl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.notification_tbl.EnableHeadersVisualStyles = false;
-            this.notification_tbl.GridColor = System.Drawing.Color.AliceBlue;
-            this.notification_tbl.Location = new System.Drawing.Point(0, 0);
-            this.notification_tbl.Margin = new System.Windows.Forms.Padding(0);
-            this.notification_tbl.Name = "notification_tbl";
-            this.notification_tbl.ReadOnly = true;
-            this.notification_tbl.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.notification_tbl.RowHeadersVisible = false;
-            this.notification_tbl.RowTemplate.Height = 25;
-            this.notification_tbl.Size = new System.Drawing.Size(943, 527);
-            this.notification_tbl.TabIndex = 2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.data_tbl.DefaultCellStyle = dataGridViewCellStyle4;
+            this.data_tbl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.data_tbl.EnableHeadersVisualStyles = false;
+            this.data_tbl.GridColor = System.Drawing.Color.AliceBlue;
+            this.data_tbl.Location = new System.Drawing.Point(0, 0);
+            this.data_tbl.Margin = new System.Windows.Forms.Padding(0);
+            this.data_tbl.Name = "data_tbl";
+            this.data_tbl.ReadOnly = true;
+            this.data_tbl.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.data_tbl.RowHeadersVisible = false;
+            this.data_tbl.RowTemplate.Height = 25;
+            this.data_tbl.Size = new System.Drawing.Size(943, 527);
+            this.data_tbl.TabIndex = 2;
             // 
             // id
             // 
@@ -758,7 +758,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.tableLayoutPanel8.ResumeLayout(false);
             this.tableLayoutPanel8.PerformLayout();
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.notification_tbl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.data_tbl)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -769,8 +769,8 @@ namespace AradaSystemManager.Gebeya.FrontEnd
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button hager_btn;
+        private System.Windows.Forms.Button card_btn;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
@@ -778,17 +778,17 @@ namespace AradaSystemManager.Gebeya.FrontEnd
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox statActive_check;
+        private System.Windows.Forms.CheckBox statInactive_check;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TableLayoutPanel searchPanelLayout;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ComboBox searchby_combo;
+        private System.Windows.Forms.TextBox search_txt;
+        private System.Windows.Forms.Button search_btn;
+        private System.Windows.Forms.Button otherReports_btn;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.DataGridView notification_tbl;
+        private System.Windows.Forms.DataGridView data_tbl;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn telecom;
         private System.Windows.Forms.DataGridViewTextBoxColumn supplier;
@@ -809,7 +809,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox exDateBefore_txt;
+        private System.Windows.Forms.TextBox exDateAfter_txt;
     }
 }
