@@ -29,17 +29,22 @@ namespace AradaSystemManager.Gebeya.FrontEnd
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.hager_tbl = new System.Windows.Forms.DataGridView();
+            this.packageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.amountSold = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.buyer_tbl = new System.Windows.Forms.DataGridView();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.packageBought = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hagerQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -47,11 +52,6 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.firstLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.packageBought = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hagerQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.packageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.amountSold = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.hager_tbl)).BeginInit();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -73,26 +73,26 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.hager_tbl.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.hager_tbl.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
             this.hager_tbl.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.hager_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.hager_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.hager_tbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.hager_tbl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.packageName,
             this.amountSold});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.hager_tbl.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.hager_tbl.DefaultCellStyle = dataGridViewCellStyle6;
             this.hager_tbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.hager_tbl.EnableHeadersVisualStyles = false;
             this.hager_tbl.GridColor = System.Drawing.Color.AliceBlue;
@@ -105,6 +105,22 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.hager_tbl.RowTemplate.Height = 25;
             this.hager_tbl.Size = new System.Drawing.Size(412, 535);
             this.hager_tbl.TabIndex = 4;
+            // 
+            // packageName
+            // 
+            this.packageName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.packageName.HeaderText = "Package Name";
+            this.packageName.Name = "packageName";
+            this.packageName.ReadOnly = true;
+            this.packageName.Width = 110;
+            // 
+            // amountSold
+            // 
+            this.amountSold.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.amountSold.HeaderText = "Amount Sold";
+            this.amountSold.Name = "amountSold";
+            this.amountSold.ReadOnly = true;
+            this.amountSold.Width = 101;
             // 
             // label3
             // 
@@ -174,27 +190,27 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.buyer_tbl.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.buyer_tbl.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
             this.buyer_tbl.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.buyer_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.buyer_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.buyer_tbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.buyer_tbl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.name,
             this.packageBought,
             this.hagerQty});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.buyer_tbl.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.buyer_tbl.DefaultCellStyle = dataGridViewCellStyle8;
             this.buyer_tbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buyer_tbl.EnableHeadersVisualStyles = false;
             this.buyer_tbl.GridColor = System.Drawing.Color.AliceBlue;
@@ -207,6 +223,31 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.buyer_tbl.RowTemplate.Height = 25;
             this.buyer_tbl.Size = new System.Drawing.Size(412, 535);
             this.buyer_tbl.TabIndex = 3;
+            // 
+            // name
+            // 
+            this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.name.HeaderText = "Name";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Width = 63;
+            // 
+            // packageBought
+            // 
+            this.packageBought.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.packageBought.HeaderText = "Package Bought";
+            this.packageBought.Name = "packageBought";
+            this.packageBought.ReadOnly = true;
+            this.packageBought.Width = 107;
+            // 
+            // hagerQty
+            // 
+            this.hagerQty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.hagerQty.HeaderText = "Hager Quantity";
+            this.hagerQty.MinimumWidth = 150;
+            this.hagerQty.Name = "hagerQty";
+            this.hagerQty.ReadOnly = true;
+            this.hagerQty.Width = 150;
             // 
             // tableLayoutPanel3
             // 
@@ -268,6 +309,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.close_btn.Size = new System.Drawing.Size(73, 66);
             this.close_btn.TabIndex = 1;
             this.close_btn.UseVisualStyleBackColor = true;
+            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
             // 
             // label1
             // 
@@ -317,47 +359,6 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.firstLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90F));
             this.firstLayout.Size = new System.Drawing.Size(884, 661);
             this.firstLayout.TabIndex = 1;
-            // 
-            // name
-            // 
-            this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.name.HeaderText = "Name";
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            this.name.Width = 63;
-            // 
-            // packageBought
-            // 
-            this.packageBought.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.packageBought.HeaderText = "Package Bought";
-            this.packageBought.Name = "packageBought";
-            this.packageBought.ReadOnly = true;
-            this.packageBought.Width = 107;
-            // 
-            // hagerQty
-            // 
-            this.hagerQty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.hagerQty.HeaderText = "Hager Quantity";
-            this.hagerQty.MinimumWidth = 150;
-            this.hagerQty.Name = "hagerQty";
-            this.hagerQty.ReadOnly = true;
-            this.hagerQty.Width = 150;
-            // 
-            // packageName
-            // 
-            this.packageName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.packageName.HeaderText = "Package Name";
-            this.packageName.Name = "packageName";
-            this.packageName.ReadOnly = true;
-            this.packageName.Width = 110;
-            // 
-            // amountSold
-            // 
-            this.amountSold.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.amountSold.HeaderText = "Amount Sold";
-            this.amountSold.Name = "amountSold";
-            this.amountSold.ReadOnly = true;
-            this.amountSold.Width = 101;
             // 
             // hagerOtherReportsForm
             // 
