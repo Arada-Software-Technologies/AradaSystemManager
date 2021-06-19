@@ -33,6 +33,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(hagerOtherReportsForm));
             this.hager_tbl = new System.Windows.Forms.DataGridView();
             this.packageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.amountSold = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -286,7 +287,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::AradaSystemManager.Properties.Resources.photo_2021_04_18_16_50_37;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(8, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
@@ -297,7 +298,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             // 
             // close_btn
             // 
-            this.close_btn.BackgroundImage = global::AradaSystemManager.Properties.Resources.icons8_multiply_64px;
+            this.close_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("close_btn.BackgroundImage")));
             this.close_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.close_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.close_btn.FlatAppearance.BorderSize = 0;
@@ -322,6 +323,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.label1.TabIndex = 2;
             this.label1.Text = "Other Reports";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             // 
             // tableLayoutPanel1
             // 
