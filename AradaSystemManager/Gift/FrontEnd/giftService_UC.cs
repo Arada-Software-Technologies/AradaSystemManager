@@ -15,6 +15,7 @@ namespace AradaSystemManager.Gift.FrontEnd
         public giftService_UC()
         {
             InitializeComponent();
+            this.data_tbl.Rows.Add();
         }
     }
 }

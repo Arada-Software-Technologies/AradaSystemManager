@@ -49,10 +49,10 @@ namespace AradaSystemManager.Gift.FrontEnd
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.data_tbl = new System.Windows.Forms.DataGridView();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.packageDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,7 +60,10 @@ namespace AradaSystemManager.Gift.FrontEnd
             this.renainingAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.qtySold = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.view = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.remaingGift = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.msg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.registrationDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.tableLayoutPanel5.SuspendLayout();
@@ -71,10 +74,10 @@ namespace AradaSystemManager.Gift.FrontEnd
             this.tableLayoutPanel6.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.data_tbl)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // logout
@@ -317,22 +320,6 @@ namespace AradaSystemManager.Gift.FrontEnd
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1346, 695);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.AliceBlue;
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 93F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1366, 768);
-            this.tableLayoutPanel1.TabIndex = 1;
-            // 
             // tableLayoutPanel7
             // 
             this.tableLayoutPanel7.BackColor = System.Drawing.Color.White;
@@ -385,7 +372,10 @@ namespace AradaSystemManager.Gift.FrontEnd
             this.renainingAmount,
             this.qtySold,
             this.status,
-            this.view});
+            this.remaingGift,
+            this.msg,
+            this.registrationDate,
+            this.dataGridViewCheckBoxColumn1});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.AliceBlue;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -407,6 +397,22 @@ namespace AradaSystemManager.Gift.FrontEnd
             this.data_tbl.Size = new System.Drawing.Size(1326, 595);
             this.data_tbl.TabIndex = 3;
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.AliceBlue;
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 93F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1366, 768);
+            this.tableLayoutPanel1.TabIndex = 1;
+            // 
             // id
             // 
             this.id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
@@ -418,62 +424,74 @@ namespace AradaSystemManager.Gift.FrontEnd
             // packageDescription
             // 
             this.packageDescription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.packageDescription.HeaderText = "Package Description ";
+            this.packageDescription.HeaderText = "Gift Name";
             this.packageDescription.Name = "packageDescription";
             this.packageDescription.ReadOnly = true;
-            this.packageDescription.Width = 129;
+            this.packageDescription.Width = 85;
             // 
             // qty
             // 
             this.qty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.qty.HeaderText = "Quantity";
+            this.qty.HeaderText = "Amount";
             this.qty.Name = "qty";
             this.qty.ReadOnly = true;
-            this.qty.Width = 77;
+            this.qty.Width = 75;
             // 
             // price
             // 
             this.price.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.price.HeaderText = "Price";
+            this.price.HeaderText = "Total gift";
             this.price.Name = "price";
             this.price.ReadOnly = true;
-            this.price.Width = 57;
+            this.price.Width = 77;
             // 
             // renainingAmount
             // 
             this.renainingAmount.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.renainingAmount.HeaderText = "Remaining Amount";
+            this.renainingAmount.HeaderText = "Gift Mode";
             this.renainingAmount.Name = "renainingAmount";
             this.renainingAmount.ReadOnly = true;
-            this.renainingAmount.Width = 123;
+            this.renainingAmount.Width = 84;
             // 
             // qtySold
             // 
             this.qtySold.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.qtySold.HeaderText = "Quantity Sold";
+            this.qtySold.HeaderText = "Start Date";
             this.qtySold.Name = "qtySold";
             this.qtySold.ReadOnly = true;
-            this.qtySold.Width = 95;
+            this.qtySold.Width = 82;
             // 
             // status
             // 
             this.status.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.status.HeaderText = "Status";
+            this.status.HeaderText = "End Date";
             this.status.Name = "status";
             this.status.ReadOnly = true;
-            this.status.Width = 63;
+            this.status.Width = 78;
             // 
-            // view
+            // remaingGift
             // 
-            this.view.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.view.HeaderText = "";
-            this.view.Name = "view";
-            this.view.ReadOnly = true;
-            this.view.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.view.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.view.Text = "View";
-            this.view.UseColumnTextForButtonValue = true;
-            this.view.Width = 18;
+            this.remaingGift.HeaderText = "Remaining Gift ";
+            this.remaingGift.Name = "remaingGift";
+            this.remaingGift.ReadOnly = true;
+            // 
+            // msg
+            // 
+            this.msg.HeaderText = "Message";
+            this.msg.Name = "msg";
+            this.msg.ReadOnly = true;
+            // 
+            // registrationDate
+            // 
+            this.registrationDate.HeaderText = "Registration Date";
+            this.registrationDate.Name = "registrationDate";
+            this.registrationDate.ReadOnly = true;
+            // 
+            // dataGridViewCheckBoxColumn1
+            // 
+            this.dataGridViewCheckBoxColumn1.HeaderText = "Status";
+            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            this.dataGridViewCheckBoxColumn1.ReadOnly = true;
             // 
             // giftService_UC
             // 
@@ -496,10 +514,10 @@ namespace AradaSystemManager.Gift.FrontEnd
             this.tableLayoutPanel6.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.data_tbl)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -535,6 +553,9 @@ namespace AradaSystemManager.Gift.FrontEnd
         private System.Windows.Forms.DataGridViewTextBoxColumn renainingAmount;
         private System.Windows.Forms.DataGridViewTextBoxColumn qtySold;
         private System.Windows.Forms.DataGridViewTextBoxColumn status;
-        private System.Windows.Forms.DataGridViewButtonColumn view;
+        private System.Windows.Forms.DataGridViewTextBoxColumn remaingGift;
+        private System.Windows.Forms.DataGridViewTextBoxColumn msg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn registrationDate;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
     }
 }
