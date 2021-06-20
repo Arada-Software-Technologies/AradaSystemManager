@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AradaSystemManager.Gebeya.FrontEnd
 {
-    public partial class createHagerForm : Form
+    public partial class viewHagerForm : Form
     {
-        public createHagerForm()
+        public viewHagerForm()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace AradaSystemManager.Gebeya.FrontEnd
         private void close_btn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void close_btn_MouseDown(object sender, MouseEventArgs e)
+        {
+
         }
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
