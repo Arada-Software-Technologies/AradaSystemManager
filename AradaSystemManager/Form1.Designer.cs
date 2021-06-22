@@ -29,24 +29,23 @@ namespace AradaSystemManager
         /// </summary>
         private void InitializeComponent()
         {
-            this.giftService_uc1 = new AradaSystemManager.Gift.FrontEnd.giftService_UC();
+            this.hagerManagement_uc1 = new AradaSystemManager.Gebeya.FrontEnd.hagerManagement_UC();
             this.SuspendLayout();
             // 
-            // giftService_uc1
+            // hagerManagement_uc1
             // 
-            this.giftService_uc1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.giftService_uc1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.giftService_uc1.Location = new System.Drawing.Point(0, 0);
-            this.giftService_uc1.Name = "giftService_uc1";
-            this.giftService_uc1.Size = new System.Drawing.Size(1560, 769);
-            this.giftService_uc1.TabIndex = 0;
+            this.hagerManagement_uc1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.hagerManagement_uc1.Location = new System.Drawing.Point(0, 0);
+            this.hagerManagement_uc1.Name = "hagerManagement_uc1";
+            this.hagerManagement_uc1.Size = new System.Drawing.Size(1560, 769);
+            this.hagerManagement_uc1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1560, 769);
-            this.Controls.Add(this.giftService_uc1);
+            this.Controls.Add(this.hagerManagement_uc1);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,7 +55,7 @@ namespace AradaSystemManager
 
         #endregion
 
-        private Gift.FrontEnd.giftService_UC giftService_uc1;
+        private Gebeya.FrontEnd.hagerManagement_UC hagerManagement_uc1;
     }
 }
 

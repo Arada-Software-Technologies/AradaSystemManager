@@ -32,7 +32,8 @@ namespace AradaSystemManager.Gebeya.FrontEnd
 
         private void createHager_btn_Click(object sender, EventArgs e)
         {
-
+            createHagerForm c1 = new createHagerForm();
+            c1.Show();
         }
     }
 }
