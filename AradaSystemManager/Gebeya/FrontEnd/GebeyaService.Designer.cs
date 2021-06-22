@@ -36,7 +36,6 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
-            this.cardMangement_uc1 = new AradaSystemManager.Gebeya.FrontEnd.cardMangement_UC();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
@@ -49,6 +48,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.profilepic = new System.Windows.Forms.ToolStripMenuItem();
             this.viewProfile = new System.Windows.Forms.ToolStripMenuItem();
             this.logout = new System.Windows.Forms.ToolStripMenuItem();
+            this.hagerManagement_uc1 = new AradaSystemManager.Gebeya.FrontEnd.hagerManagement_UC();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -83,7 +83,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Controls.Add(this.panel3, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.cardMangement_uc1, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.hagerManagement_uc1, 0, 2);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(10, 63);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(10);
@@ -167,15 +167,6 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.button2.Text = "Back";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // cardMangement_uc1
-            // 
-            this.cardMangement_uc1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.cardMangement_uc1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cardMangement_uc1.Location = new System.Drawing.Point(3, 83);
-            this.cardMangement_uc1.Name = "cardMangement_uc1";
-            this.cardMangement_uc1.Size = new System.Drawing.Size(1340, 609);
-            this.cardMangement_uc1.TabIndex = 2;
             // 
             // panel1
             // 
@@ -327,6 +318,14 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.logout.Size = new System.Drawing.Size(136, 20);
             this.logout.Text = "Logout";
             // 
+            // hagerManagement_uc1
+            // 
+            this.hagerManagement_uc1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.hagerManagement_uc1.Location = new System.Drawing.Point(3, 83);
+            this.hagerManagement_uc1.Name = "hagerManagement_uc1";
+            this.hagerManagement_uc1.Size = new System.Drawing.Size(1340, 609);
+            this.hagerManagement_uc1.TabIndex = 2;
+            // 
             // CardManagement_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -374,6 +373,6 @@ namespace AradaSystemManager.Gebeya.FrontEnd
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button button2;
-        private cardMangement_UC cardMangement_uc1;
+        private hagerManagement_UC hagerManagement_uc1;
     }
 }
