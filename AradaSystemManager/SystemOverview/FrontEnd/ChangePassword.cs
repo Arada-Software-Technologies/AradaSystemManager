@@ -7,32 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AradaSystemManager.SystemOverview.FrontEnd;
 
-namespace AradaSystemManager
+namespace AradaSystemManager.SystemOverview.FrontEnd
 {
-    public partial class Form1 : Form
+    public partial class ChangePassword : Form
     {
-        public Form1()
+        public ChangePassword()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.Show();
+            Application.Exit();
         }
 
-        private void login_uc1_Load(object sender, EventArgs e)
+        private void comboSystemoverview_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-        }
-
-
-        private void cardManagement_uc1_Load(object sender, EventArgs e)
-        {
-
 
         }
     }
