@@ -29,10 +29,11 @@ namespace AradaSystemManager
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+
+        private void cardManagement_uc1_Load(object sender, EventArgs e)
         {
-            NotificationForm n = new NotificationForm();
-            n.Show();
+
+
         }
     }
 }
