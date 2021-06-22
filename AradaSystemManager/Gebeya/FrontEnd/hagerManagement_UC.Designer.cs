@@ -29,8 +29,8 @@ namespace AradaSystemManager.Gebeya.FrontEnd
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel9 = new System.Windows.Forms.Panel();
             this.searchPanelLayout = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
@@ -184,6 +184,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.otherReports_btn.TabIndex = 3;
             this.otherReports_btn.Text = "Other Reports";
             this.otherReports_btn.UseVisualStyleBackColor = false;
+            this.otherReports_btn.Click += new System.EventHandler(this.otherReports_btn_Click);
             // 
             // giftUser_btn
             // 
@@ -196,6 +197,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.giftUser_btn.TabIndex = 4;
             this.giftUser_btn.Text = "Gift User";
             this.giftUser_btn.UseVisualStyleBackColor = false;
+            this.giftUser_btn.Click += new System.EventHandler(this.giftUser_btn_Click);
             // 
             // createHager_btn
             // 
@@ -211,6 +213,7 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.createHager_btn.Text = "Create Hager Package";
             this.createHager_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.createHager_btn.UseVisualStyleBackColor = false;
+            this.createHager_btn.Click += new System.EventHandler(this.createHager_btn_Click);
             // 
             // panel4
             // 
@@ -233,14 +236,14 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.data_tbl.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.data_tbl.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
             this.data_tbl.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.data_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(163)))), ((int)(((byte)(164)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.data_tbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.data_tbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.data_tbl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
@@ -251,14 +254,14 @@ namespace AradaSystemManager.Gebeya.FrontEnd
             this.qtySold,
             this.status,
             this.view});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.data_tbl.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.data_tbl.DefaultCellStyle = dataGridViewCellStyle8;
             this.data_tbl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.data_tbl.EnableHeadersVisualStyles = false;
             this.data_tbl.GridColor = System.Drawing.Color.AliceBlue;

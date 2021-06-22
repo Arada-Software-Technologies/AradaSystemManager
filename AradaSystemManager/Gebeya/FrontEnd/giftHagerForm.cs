@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AradaSystemManager.Gebeya.FrontEnd
 {
-    public partial class hagerOtherReportsForm : Form
+    public partial class giftHagerForm : Form
     {
-        public hagerOtherReportsForm()
+        public giftHagerForm()
         {
             InitializeComponent();
         }
