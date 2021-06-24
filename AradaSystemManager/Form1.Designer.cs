@@ -29,7 +29,8 @@ namespace AradaSystemManager
         /// </summary>
         private void InitializeComponent()
         {
-            this.hagerManagement_uc1 = new AradaSystemManager.Gebeya.FrontEnd.hagerManagement_UC();
+            this.userControl11 = new AradaSystemManager.Prime_UCs.LandingPage();
+
             this.SuspendLayout();
             // 
             // hagerManagement_uc1
@@ -55,7 +56,7 @@ namespace AradaSystemManager
 
         #endregion
 
-        private Gebeya.FrontEnd.hagerManagement_UC hagerManagement_uc1;
+        private Prime_UCs.LandingPage userControl11;
     }
 }
 
